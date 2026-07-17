@@ -1,0 +1,30 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.ycombinator.com/people
+type: Team
+partners:
+  - name: Garry Tan
+    role: President & CEO, General Partner
+    url: https://www.ycombinator.com/people/garry-tan
+    linkedin: https://www.linkedin.com/in/garrytan/
+    note: Co-founder of Posterous (acquired by Twitter) and Initialized Capital
+  - name: Harj Taggar
+    role: General Partner
+    url: https://www.ycombinator.com/people/harj-taggar
+    note: Co-founder & CEO of Triplebyte (acquired by Karat) and Auctomatic
+  - name: Jared Friedman
+    role: Group Partner
+    url: https://www.ycombinator.com/people/jared-friedman
+    note: Co-founder of Scribd
+  - name: Aaron Epstein
+    role: Group Partner
+    url: https://www.ycombinator.com/people/aaron-epstein
+    note: Co-founder of Creative Market
+  - name: Diana Hu
+    role: Group Partner
+    url: https://www.ycombinator.com/people/diana-hu
+    note: Co-founder & CTO of Escher Reality (acquired by Niantic)
+  - name: Gustaf Alstromer
+    role: Group Partner
+    url: https://www.ycombinator.com/people/gustaf-alstromer
+    note: Led Growth at Airbnb
