@@ -3,9 +3,9 @@ method: searched
 source: https://www.ycombinator.com/companies
 summary:
   portfolio_total: 839
-  in_network: 87
-  api_providers: 68
-  missing: 752
+  in_network: 839
+  api_providers: 190
+  missing: 0
   stubs_created: 0
 companies:
 - name: Doordash
@@ -32,9 +32,10 @@ companies:
 - name: Groww
   status: unknown
   source: https://www.ycombinator.com/companies/groww
-  in_network: false
-  is_api_provider: false
-  suggested_slug: groww
+  in_network: true
+  is_api_provider: true
+  slug: groww
+  matched_by: name-slug
 - name: Instacart
   status: unknown
   source: https://www.ycombinator.com/companies/instacart
@@ -45,9 +46,10 @@ companies:
 - name: Meesho
   status: unknown
   source: https://www.ycombinator.com/companies/meesho
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meesho
+  slug: meesho
+  matched_by: name-slug
 - name: Oklo
   status: unknown
   source: https://www.ycombinator.com/companies/oklo
@@ -58,9 +60,10 @@ companies:
 - name: Rigetti Computing
   status: unknown
   source: https://www.ycombinator.com/companies/rigetti-computing
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rigetti-computing
+  in_network: true
+  is_api_provider: true
+  slug: rigetti-computing
+  matched_by: name-slug
 - name: Gitlab
   status: unknown
   source: https://www.ycombinator.com/companies/gitlab
@@ -71,9 +74,10 @@ companies:
 - name: Billiontoone
   status: unknown
   source: https://www.ycombinator.com/companies/billiontoone
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: billiontoone
+  slug: billiontoone
+  matched_by: name-slug
 - name: Dropbox
   status: unknown
   source: https://www.ycombinator.com/companies/dropbox
@@ -84,15 +88,17 @@ companies:
 - name: Equipmentshare
   status: unknown
   source: https://www.ycombinator.com/companies/equipmentshare
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: equipmentshare
+  slug: equipmentshare
+  matched_by: name-slug
 - name: Matterport
   status: unknown
   source: https://www.ycombinator.com/companies/matterport
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matterport
+  slug: matterport
+  matched_by: name-slug
 - name: Amplitude
   status: unknown
   source: https://www.ycombinator.com/companies/amplitude
@@ -110,39 +116,45 @@ companies:
 - name: Weave
   status: unknown
   source: https://www.ycombinator.com/companies/weave
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: weave
+  slug: weave
+  matched_by: name-slug
 - name: Ginkgo Bioworks
   status: unknown
   source: https://www.ycombinator.com/companies/ginkgo-bioworks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ginkgo-bioworks
+  slug: ginkgo-bioworks
+  matched_by: name-slug
 - name: Pardes Bio
   status: unknown
   source: https://www.ycombinator.com/companies/pardes-bio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pardes-bio
+  slug: pardes-bio
+  matched_by: name-slug
 - name: Momentus
   status: unknown
   source: https://www.ycombinator.com/companies/momentus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: momentus
+  slug: momentus
+  matched_by: name-slug
 - name: Embark Trucks
   status: unknown
   source: https://www.ycombinator.com/companies/embark-trucks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: embark-trucks
+  slug: embark-trucks
+  matched_by: name-slug
 - name: Lucira Health
   status: unknown
   source: https://www.ycombinator.com/companies/lucira-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lucira-health
+  slug: lucira-health
+  matched_by: name-slug
 - name: Segment
   status: unknown
   source: https://www.ycombinator.com/companies/segment
@@ -160,9 +172,10 @@ companies:
 - name: Truebill
   status: unknown
   source: https://www.ycombinator.com/companies/truebill
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truebill
+  slug: truebill
+  matched_by: name-slug
 - name: Twitch
   status: unknown
   source: https://www.ycombinator.com/companies/twitch
@@ -173,21 +186,24 @@ companies:
 - name: Plangrid
   status: unknown
   source: https://www.ycombinator.com/companies/plangrid
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plangrid
+  slug: plangrid
+  matched_by: name-slug
 - name: Bellabeat
   status: unknown
   source: https://www.ycombinator.com/companies/bellabeat
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bellabeat
+  slug: bellabeat
+  matched_by: name-slug
 - name: Cruise
   status: unknown
   source: https://www.ycombinator.com/companies/cruise
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cruise
+  slug: cruise
+  matched_by: name-slug
 - name: Benchling
   status: unknown
   source: https://www.ycombinator.com/companies/benchling
@@ -219,9 +235,10 @@ companies:
 - name: The Athletic
   status: unknown
   source: https://www.ycombinator.com/companies/the-athletic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-athletic
+  slug: the-athletic
+  matched_by: name-slug
 - name: Codecademy
   status: unknown
   source: https://www.ycombinator.com/companies/codecademy
@@ -246,9 +263,10 @@ companies:
 - name: Clipboard
   status: unknown
   source: https://www.ycombinator.com/companies/clipboard
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clipboard
+  slug: clipboard
+  matched_by: name-slug
 - name: Heap
   status: unknown
   source: https://www.ycombinator.com/companies/heap
@@ -259,9 +277,10 @@ companies:
 - name: Sendwave
   status: unknown
   source: https://www.ycombinator.com/companies/sendwave
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sendwave
+  slug: sendwave
+  matched_by: name-slug
 - name: Deel
   status: unknown
   source: https://www.ycombinator.com/companies/deel
@@ -279,9 +298,10 @@ companies:
 - name: Caper
   status: unknown
   source: https://www.ycombinator.com/companies/caper
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caper
+  slug: caper
+  matched_by: name-slug
 - name: Reddit
   status: unknown
   source: https://www.ycombinator.com/companies/reddit
@@ -292,15 +312,17 @@ companies:
 - name: Fivestars
   status: unknown
   source: https://www.ycombinator.com/companies/fivestars
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fivestars
+  slug: fivestars
+  matched_by: name-slug
 - name: Machine Zone
   status: unknown
   source: https://www.ycombinator.com/companies/machine-zone
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: machine-zone
+  slug: machine-zone
+  matched_by: name-slug
 - name: Faire
   status: unknown
   source: https://www.ycombinator.com/companies/faire
@@ -332,9 +354,10 @@ companies:
 - name: Wepay
   status: unknown
   source: https://www.ycombinator.com/companies/wepay
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wepay
+  slug: wepay
+  matched_by: name-slug
 - name: Weebly
   status: unknown
   source: https://www.ycombinator.com/companies/weebly
@@ -345,45 +368,52 @@ companies:
 - name: Flock Safety
   status: unknown
   source: https://www.ycombinator.com/companies/flock-safety
-  in_network: false
-  is_api_provider: false
-  suggested_slug: flock-safety
+  in_network: true
+  is_api_provider: true
+  slug: flock-safety
+  matched_by: name-slug
 - name: Sqreen
   status: unknown
   source: https://www.ycombinator.com/companies/sqreen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sqreen
+  slug: sqreen
+  matched_by: name-slug
 - name: Nurx
   status: unknown
   source: https://www.ycombinator.com/companies/nurx
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nurx
+  slug: nurx
+  matched_by: name-slug
 - name: Go1
   status: unknown
   source: https://www.ycombinator.com/companies/go1
-  in_network: false
-  is_api_provider: false
-  suggested_slug: go1
+  in_network: true
+  is_api_provider: true
+  slug: go1
+  matched_by: name-slug
 - name: Coreos
   status: unknown
   source: https://www.ycombinator.com/companies/coreos
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coreos
+  slug: coreos
+  matched_by: name-slug
 - name: Bear Flag Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/bear-flag-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bear-flag-robotics
+  slug: bear-flag-robotics
+  matched_by: name-slug
 - name: Goat Group
   status: unknown
   source: https://www.ycombinator.com/companies/goat-group
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goat-group
+  slug: goat-group
+  matched_by: name-slug
 - name: Heroku
   status: unknown
   source: https://www.ycombinator.com/companies/heroku
@@ -394,15 +424,17 @@ companies:
 - name: Grubmarket
   status: unknown
   source: https://www.ycombinator.com/companies/grubmarket
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grubmarket
+  slug: grubmarket
+  matched_by: name-slug
 - name: Hellosign
   status: unknown
   source: https://www.ycombinator.com/companies/hellosign
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hellosign
+  in_network: true
+  is_api_provider: true
+  slug: hellosign
+  matched_by: name-slug
 - name: Zenefits
   status: unknown
   source: https://www.ycombinator.com/companies/zenefits
@@ -420,27 +452,31 @@ companies:
 - name: Honeylove
   status: unknown
   source: https://www.ycombinator.com/companies/honeylove
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: honeylove
+  slug: honeylove
+  matched_by: name-slug
 - name: Modern Fertility
   status: unknown
   source: https://www.ycombinator.com/companies/modern-fertility
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modern-fertility
+  slug: modern-fertility
+  matched_by: name-slug
 - name: Cognito
   status: unknown
   source: https://www.ycombinator.com/companies/cognito
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cognito
+  slug: cognito
+  matched_by: name-slug
 - name: Openinvest
   status: unknown
   source: https://www.ycombinator.com/companies/openinvest
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openinvest
+  slug: openinvest
+  matched_by: name-slug
 - name: Mixpanel
   status: unknown
   source: https://www.ycombinator.com/companies/mixpanel
@@ -458,9 +494,10 @@ companies:
 - name: Moxion Power Co
   status: unknown
   source: https://www.ycombinator.com/companies/moxion-power-co
-  in_network: false
-  is_api_provider: false
-  suggested_slug: moxion-power-co
+  in_network: true
+  is_api_provider: true
+  slug: moxion-power-co
+  matched_by: name-slug
 - name: Drchrono
   status: unknown
   source: https://www.ycombinator.com/companies/drchrono
@@ -471,51 +508,59 @@ companies:
 - name: Omgpop
   status: unknown
   source: https://www.ycombinator.com/companies/omgpop
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omgpop
+  slug: omgpop
+  matched_by: name-slug
 - name: Newfront Insurance
   status: unknown
   source: https://www.ycombinator.com/companies/newfront-insurance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newfront-insurance
+  slug: newfront-insurance
+  matched_by: name-slug
 - name: North
   status: unknown
   source: https://www.ycombinator.com/companies/north
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: north
+  slug: north
+  matched_by: name-slug
 - name: Nowports
   status: unknown
   source: https://www.ycombinator.com/companies/nowports
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nowports
+  slug: nowports
+  matched_by: name-slug
 - name: Odeko
   status: unknown
   source: https://www.ycombinator.com/companies/odeko
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: odeko
+  slug: odeko
+  matched_by: name-slug
 - name: Gitprime
   status: unknown
   source: https://www.ycombinator.com/companies/gitprime
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gitprime
+  slug: gitprime
+  matched_by: name-slug
 - name: Proxy
   status: unknown
   source: https://www.ycombinator.com/companies/proxy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proxy
+  slug: proxy
+  matched_by: name-slug
 - name: Futureadvisor
   status: unknown
   source: https://www.ycombinator.com/companies/futureadvisor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: futureadvisor
+  slug: futureadvisor
+  matched_by: name-slug
 - name: Podium
   status: unknown
   source: https://www.ycombinator.com/companies/podium
@@ -554,15 +599,17 @@ companies:
 - name: Scentbird
   status: unknown
   source: https://www.ycombinator.com/companies/scentbird
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scentbird
+  slug: scentbird
+  matched_by: name-slug
 - name: Scribd
   status: unknown
   source: https://www.ycombinator.com/companies/scribd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scribd
+  slug: scribd
+  matched_by: name-slug
 - name: Shipbob
   status: unknown
   source: https://www.ycombinator.com/companies/shipbob
@@ -573,9 +620,10 @@ companies:
 - name: Smartasset
   status: unknown
   source: https://www.ycombinator.com/companies/smartasset
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smartasset
+  slug: smartasset
+  matched_by: name-slug
 - name: Stripe
   status: unknown
   source: https://www.ycombinator.com/companies/stripe
@@ -586,9 +634,10 @@ companies:
 - name: Wave
   status: unknown
   source: https://www.ycombinator.com/companies/wave
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wave
+  slug: wave
+  matched_by: name-slug
 - name: Webflow
   status: unknown
   source: https://www.ycombinator.com/companies/webflow
@@ -613,81 +662,94 @@ companies:
 - name: Zepto
   status: unknown
   source: https://www.ycombinator.com/companies/zepto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zepto
+  slug: zepto
+  matched_by: name-slug
 - name: Focal Systems
   status: unknown
   source: https://www.ycombinator.com/companies/focal-systems
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: focal-systems
+  slug: focal-systems
+  matched_by: name-slug
 - name: Mio
   status: unknown
   source: https://www.ycombinator.com/companies/mio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mio
+  slug: mio
+  matched_by: name-slug
 - name: Daily
   status: unknown
   source: https://www.ycombinator.com/companies/daily
-  in_network: false
-  is_api_provider: false
-  suggested_slug: daily
+  in_network: true
+  is_api_provider: true
+  slug: daily
+  matched_by: name-slug
 - name: Petcube
   status: unknown
   source: https://www.ycombinator.com/companies/petcube
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: petcube
+  slug: petcube
+  matched_by: name-slug
 - name: Outschool
   status: unknown
   source: https://www.ycombinator.com/companies/outschool
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outschool
+  slug: outschool
+  matched_by: name-slug
 - name: Mason
   status: unknown
   source: https://www.ycombinator.com/companies/mason
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mason
+  in_network: true
+  is_api_provider: true
+  slug: mason
+  matched_by: name-slug
 - name: Magicbus
   status: unknown
   source: https://www.ycombinator.com/companies/magicbus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magicbus
+  slug: magicbus
+  matched_by: name-slug
 - name: Tovala
   status: unknown
   source: https://www.ycombinator.com/companies/tovala
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tovala
+  slug: tovala
+  matched_by: name-slug
 - name: Isono Health
   status: unknown
   source: https://www.ycombinator.com/companies/isono-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: isono-health
+  slug: isono-health
+  matched_by: name-slug
 - name: Getaccept
   status: unknown
   source: https://www.ycombinator.com/companies/getaccept
-  in_network: false
-  is_api_provider: false
-  suggested_slug: getaccept
+  in_network: true
+  is_api_provider: true
+  slug: getaccept
+  matched_by: name-slug
 - name: Chatfuel
   status: unknown
   source: https://www.ycombinator.com/companies/chatfuel
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chatfuel
+  slug: chatfuel
+  matched_by: name-slug
 - name: Yardbook
   status: unknown
   source: https://www.ycombinator.com/companies/yardbook
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yardbook
+  slug: yardbook
+  matched_by: name-slug
 - name: Gocardless
   status: unknown
   source: https://www.ycombinator.com/companies/gocardless
@@ -698,9 +760,10 @@ companies:
 - name: Stealth Worker
   status: unknown
   source: https://www.ycombinator.com/companies/stealth-worker
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stealth-worker
+  slug: stealth-worker
+  matched_by: name-slug
 - name: Deepgram
   status: unknown
   source: https://www.ycombinator.com/companies/deepgram
@@ -711,9 +774,10 @@ companies:
 - name: Soundboks
   status: unknown
   source: https://www.ycombinator.com/companies/soundboks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soundboks
+  slug: soundboks
+  matched_by: name-slug
 - name: Lattice
   status: unknown
   source: https://www.ycombinator.com/companies/lattice
@@ -731,15 +795,17 @@ companies:
 - name: Human Interest
   status: unknown
   source: https://www.ycombinator.com/companies/human-interest
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-interest
+  slug: human-interest
+  matched_by: name-slug
 - name: Flirtey
   status: unknown
   source: https://www.ycombinator.com/companies/flirtey
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flirtey
+  slug: flirtey
+  matched_by: name-slug
 - name: Eight Sleep
   status: unknown
   source: https://www.ycombinator.com/companies/eight-sleep
@@ -750,15 +816,17 @@ companies:
 - name: Instawork
   status: unknown
   source: https://www.ycombinator.com/companies/instawork
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instawork
+  slug: instawork
+  matched_by: name-slug
 - name: Cofactor Genomics
   status: unknown
   source: https://www.ycombinator.com/companies/cofactor-genomics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cofactor-genomics
+  slug: cofactor-genomics
+  matched_by: name-slug
 - name: Bitmovin
   status: unknown
   source: https://www.ycombinator.com/companies/bitmovin
@@ -776,21 +844,24 @@ companies:
 - name: The Ticket Fairy
   status: unknown
   source: https://www.ycombinator.com/companies/the-ticket-fairy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-ticket-fairy
+  slug: the-ticket-fairy
+  matched_by: name-slug
 - name: Font Awesome
   status: unknown
   source: https://www.ycombinator.com/companies/font-awesome
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: font-awesome
+  slug: font-awesome
+  matched_by: name-slug
 - name: 80 000 Hours
   status: unknown
   source: https://www.ycombinator.com/companies/80-000-hours
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 80-000-hours
+  slug: 80-000-hours
+  matched_by: name-slug
 - name: Xendit
   status: unknown
   source: https://www.ycombinator.com/companies/xendit
@@ -801,45 +872,52 @@ companies:
 - name: Shred Video
   status: unknown
   source: https://www.ycombinator.com/companies/shred-video
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shred-video
+  slug: shred-video
+  matched_by: name-slug
 - name: Shape Shapescale
   status: unknown
   source: https://www.ycombinator.com/companies/shape-shapescale
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shape-shapescale
+  slug: shape-shapescale
+  matched_by: name-slug
 - name: Redcarpetup
   status: unknown
   source: https://www.ycombinator.com/companies/redcarpetup
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redcarpetup
+  slug: redcarpetup
+  matched_by: name-slug
 - name: Plate Iq
   status: unknown
   source: https://www.ycombinator.com/companies/plate-iq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plate-iq
+  slug: plate-iq
+  matched_by: name-slug
 - name: Picktrace
   status: unknown
   source: https://www.ycombinator.com/companies/picktrace
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: picktrace
+  slug: picktrace
+  matched_by: name-slug
 - name: Fountain
   status: unknown
   source: https://www.ycombinator.com/companies/fountain
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fountain
+  slug: fountain
+  matched_by: name-slug
 - name: Microhealth
   status: unknown
   source: https://www.ycombinator.com/companies/microhealth
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: microhealth
+  slug: microhealth
+  matched_by: name-slug
 - name: Zeplin
   status: unknown
   source: https://www.ycombinator.com/companies/zeplin
@@ -850,123 +928,143 @@ companies:
 - name: Markhor
   status: unknown
   source: https://www.ycombinator.com/companies/markhor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: markhor
+  slug: markhor
+  matched_by: name-slug
 - name: Circle Medical
   status: unknown
   source: https://www.ycombinator.com/companies/circle-medical
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circle-medical
+  slug: circle-medical
+  matched_by: name-slug
 - name: Givecampus
   status: unknown
   source: https://www.ycombinator.com/companies/givecampus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: givecampus
+  slug: givecampus
+  matched_by: name-slug
 - name: Drip Capital
   status: unknown
   source: https://www.ycombinator.com/companies/drip-capital
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drip-capital
+  slug: drip-capital
+  matched_by: name-slug
 - name: Chaldal
   status: unknown
   source: https://www.ycombinator.com/companies/chaldal
-  in_network: false
-  is_api_provider: false
-  suggested_slug: chaldal
+  in_network: true
+  is_api_provider: true
+  slug: chaldal
+  matched_by: name-slug
 - name: Clerky
   status: unknown
   source: https://www.ycombinator.com/companies/clerky
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clerky
+  slug: clerky
+  matched_by: name-slug
 - name: Bodyport
   status: unknown
   source: https://www.ycombinator.com/companies/bodyport
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bodyport
+  slug: bodyport
+  matched_by: name-slug
 - name: Verge Genomics
   status: unknown
   source: https://www.ycombinator.com/companies/verge-genomics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verge-genomics
+  slug: verge-genomics
+  matched_by: name-slug
 - name: Thrive Agritech
   status: unknown
   source: https://www.ycombinator.com/companies/thrive-agritech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thrive-agritech
+  slug: thrive-agritech
+  matched_by: name-slug
 - name: Tesorio
   status: unknown
   source: https://www.ycombinator.com/companies/tesorio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tesorio
+  slug: tesorio
+  matched_by: name-slug
 - name: Agilemd
   status: unknown
   source: https://www.ycombinator.com/companies/agilemd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agilemd
+  slug: agilemd
+  matched_by: name-slug
 - name: Reach
   status: unknown
   source: https://www.ycombinator.com/companies/reach
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reach
+  slug: reach
+  matched_by: name-slug
 - name: Sunfarmer
   status: unknown
   source: https://www.ycombinator.com/companies/sunfarmer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sunfarmer
+  slug: sunfarmer
+  matched_by: name-slug
 - name: Confident Lims
   status: unknown
   source: https://www.ycombinator.com/companies/confident-lims
-  in_network: false
-  is_api_provider: false
-  suggested_slug: confident-lims
+  in_network: true
+  is_api_provider: true
+  slug: confident-lims
+  matched_by: name-slug
 - name: Branch8
   status: unknown
   source: https://www.ycombinator.com/companies/branch8
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: branch8
+  slug: branch8
+  matched_by: name-slug
 - name: Heroic Labs
   status: unknown
   source: https://www.ycombinator.com/companies/heroic-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: heroic-labs
+  in_network: true
+  is_api_provider: true
+  slug: heroic-labs
+  matched_by: name-slug
 - name: Snapmagic
   status: unknown
   source: https://www.ycombinator.com/companies/snapmagic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snapmagic
+  slug: snapmagic
+  matched_by: name-slug
 - name: Assembly
   status: unknown
   source: https://www.ycombinator.com/companies/assembly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assembly
+  slug: assembly
+  matched_by: name-slug
 - name: Gemnote
   status: unknown
   source: https://www.ycombinator.com/companies/gemnote
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gemnote
+  in_network: true
+  is_api_provider: true
+  slug: gemnote
+  matched_by: name-slug
 - name: New Story
   status: unknown
   source: https://www.ycombinator.com/companies/new-story
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: new-story
+  slug: new-story
+  matched_by: name-slug
 - name: Ironclad
   status: unknown
   source: https://www.ycombinator.com/companies/ironclad
@@ -977,15 +1075,17 @@ companies:
 - name: Leaders In Tech
   status: unknown
   source: https://www.ycombinator.com/companies/leaders-in-tech
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leaders-in-tech
+  slug: leaders-in-tech
+  matched_by: name-slug
 - name: Teabot
   status: unknown
   source: https://www.ycombinator.com/companies/teabot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teabot
+  slug: teabot
+  matched_by: name-slug
 - name: Teleport
   status: unknown
   source: https://www.ycombinator.com/companies/teleport
@@ -996,27 +1096,31 @@ companies:
 - name: Lugg
   status: unknown
   source: https://www.ycombinator.com/companies/lugg
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lugg
+  slug: lugg
+  matched_by: name-slug
 - name: Shasqi
   status: unknown
   source: https://www.ycombinator.com/companies/shasqi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shasqi
+  slug: shasqi
+  matched_by: name-slug
 - name: Mashgin
   status: unknown
   source: https://www.ycombinator.com/companies/mashgin
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mashgin
+  slug: mashgin
+  matched_by: name-slug
 - name: Nimblerx
   status: unknown
   source: https://www.ycombinator.com/companies/nimblerx
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nimblerx
+  slug: nimblerx
+  matched_by: name-slug
 - name: Quartzy
   status: unknown
   source: https://www.ycombinator.com/companies/quartzy
@@ -1027,39 +1131,45 @@ companies:
 - name: Replika
   status: unknown
   source: https://www.ycombinator.com/companies/replika
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: replika
+  slug: replika
+  matched_by: name-slug
 - name: Tara Ai
   status: unknown
   source: https://www.ycombinator.com/companies/tara-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tara-ai
+  slug: tara-ai
+  matched_by: name-slug
 - name: Flip
   status: unknown
   source: https://www.ycombinator.com/companies/flip
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flip
+  slug: flip
+  matched_by: name-slug
 - name: X Zell
   status: unknown
   source: https://www.ycombinator.com/companies/x-zell
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: x-zell
+  slug: x-zell
+  matched_by: name-slug
 - name: Zenflow
   status: unknown
   source: https://www.ycombinator.com/companies/zenflow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zenflow
+  slug: zenflow
+  matched_by: name-slug
 - name: Tab
   status: unknown
   source: https://www.ycombinator.com/companies/tab
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tab
+  slug: tab
+  matched_by: name-slug
 - name: Streak
   status: unknown
   source: https://www.ycombinator.com/companies/streak
@@ -1070,63 +1180,73 @@ companies:
 - name: Meadow
   status: unknown
   source: https://www.ycombinator.com/companies/meadow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meadow
+  slug: meadow
+  matched_by: name-slug
 - name: Level Frames
   status: unknown
   source: https://www.ycombinator.com/companies/level-frames
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: level-frames
+  slug: level-frames
+  matched_by: name-slug
 - name: Industrial Microbes
   status: unknown
   source: https://www.ycombinator.com/companies/industrial-microbes
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: industrial-microbes
+  slug: industrial-microbes
+  matched_by: name-slug
 - name: Giveffect
   status: unknown
   source: https://www.ycombinator.com/companies/giveffect
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: giveffect
+  slug: giveffect
+  matched_by: name-slug
 - name: Ebrandvalue
   status: unknown
   source: https://www.ycombinator.com/companies/ebrandvalue
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ebrandvalue
+  slug: ebrandvalue
+  matched_by: name-slug
 - name: Quantierra
   status: unknown
   source: https://www.ycombinator.com/companies/quantierra
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quantierra
+  slug: quantierra
+  matched_by: name-slug
 - name: Cleanly
   status: unknown
   source: https://www.ycombinator.com/companies/cleanly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cleanly
+  slug: cleanly
+  matched_by: name-slug
 - name: Resolve
   status: unknown
   source: https://www.ycombinator.com/companies/resolve
-  in_network: false
-  is_api_provider: false
-  suggested_slug: resolve
+  in_network: true
+  is_api_provider: true
+  slug: resolve
+  matched_by: name-slug
 - name: Makrwatch
   status: unknown
   source: https://www.ycombinator.com/companies/makrwatch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: makrwatch
+  slug: makrwatch
+  matched_by: name-slug
 - name: Teamnote
   status: unknown
   source: https://www.ycombinator.com/companies/teamnote
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teamnote
+  slug: teamnote
+  matched_by: name-slug
 - name: Tempo
   status: unknown
   source: https://www.ycombinator.com/companies/tempo
@@ -1137,15 +1257,17 @@ companies:
 - name: Sirum
   status: unknown
   source: https://www.ycombinator.com/companies/sirum
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sirum
+  slug: sirum
+  matched_by: name-slug
 - name: Sails Co
   status: unknown
   source: https://www.ycombinator.com/companies/sails-co
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sails-co
+  slug: sails-co
+  matched_by: name-slug
 - name: Readme
   status: unknown
   source: https://www.ycombinator.com/companies/readme
@@ -1156,51 +1278,59 @@ companies:
 - name: Buildscience
   status: unknown
   source: https://www.ycombinator.com/companies/buildscience
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buildscience
+  slug: buildscience
+  matched_by: name-slug
 - name: Platzi
   status: unknown
   source: https://www.ycombinator.com/companies/platzi
-  in_network: false
-  is_api_provider: false
-  suggested_slug: platzi
+  in_network: true
+  is_api_provider: true
+  slug: platzi
+  matched_by: name-slug
 - name: Labdoor
   status: unknown
   source: https://www.ycombinator.com/companies/labdoor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: labdoor
+  slug: labdoor
+  matched_by: name-slug
 - name: Givemetap
   status: unknown
   source: https://www.ycombinator.com/companies/givemetap
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: givemetap
+  slug: givemetap
+  matched_by: name-slug
 - name: Bankjoy
   status: unknown
   source: https://www.ycombinator.com/companies/bankjoy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bankjoy
+  slug: bankjoy
+  matched_by: name-slug
 - name: Zeitview
   status: unknown
   source: https://www.ycombinator.com/companies/zeitview
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeitview
+  slug: zeitview
+  matched_by: name-slug
 - name: The Human Utility
   status: unknown
   source: https://www.ycombinator.com/companies/the-human-utility
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-human-utility
+  slug: the-human-utility
+  matched_by: name-slug
 - name: Democracy Earth
   status: unknown
   source: https://www.ycombinator.com/companies/democracy-earth
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: democracy-earth
+  slug: democracy-earth
+  matched_by: name-slug
 - name: Onesignal
   status: unknown
   source: https://www.ycombinator.com/companies/onesignal
@@ -1211,21 +1341,24 @@ companies:
 - name: Numerion Labs
   status: unknown
   source: https://www.ycombinator.com/companies/numerion-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numerion-labs
+  slug: numerion-labs
+  matched_by: name-slug
 - name: Bright
   status: unknown
   source: https://www.ycombinator.com/companies/bright
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bright
+  slug: bright
+  matched_by: name-slug
 - name: Magic
   status: unknown
   source: https://www.ycombinator.com/companies/magic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magic
+  slug: magic
+  matched_by: name-slug
 - name: Mezmo
   status: unknown
   source: https://www.ycombinator.com/companies/mezmo
@@ -1236,21 +1369,24 @@ companies:
 - name: Akido Labs
   status: unknown
   source: https://www.ycombinator.com/companies/akido-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: akido-labs
+  slug: akido-labs
+  matched_by: name-slug
 - name: Qventus
   status: unknown
   source: https://www.ycombinator.com/companies/qventus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qventus
+  slug: qventus
+  matched_by: name-slug
 - name: Bayes Impact
   status: unknown
   source: https://www.ycombinator.com/companies/bayes-impact
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bayes-impact
+  slug: bayes-impact
+  matched_by: name-slug
 - name: Helion Energy
   status: unknown
   source: https://www.ycombinator.com/companies/helion-energy
@@ -1261,9 +1397,10 @@ companies:
 - name: Hackerrank
   status: unknown
   source: https://www.ycombinator.com/companies/hackerrank
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hackerrank
+  slug: hackerrank
+  matched_by: name-slug
 - name: Front
   status: unknown
   source: https://www.ycombinator.com/companies/front
@@ -1281,9 +1418,10 @@ companies:
 - name: Roomstorm
   status: unknown
   source: https://www.ycombinator.com/companies/roomstorm
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roomstorm
+  slug: roomstorm
+  matched_by: name-slug
 - name: Hive
   status: unknown
   source: https://www.ycombinator.com/companies/hive
@@ -1294,9 +1432,10 @@ companies:
 - name: Spotangels
   status: unknown
   source: https://www.ycombinator.com/companies/spotangels
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spotangels
+  slug: spotangels
+  matched_by: name-slug
 - name: Usergems
   status: unknown
   source: https://www.ycombinator.com/companies/usergems
@@ -1307,21 +1446,24 @@ companies:
 - name: Sfox
   status: unknown
   source: https://www.ycombinator.com/companies/sfox
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sfox
+  slug: sfox
+  matched_by: name-slug
 - name: Picnicai
   status: unknown
   source: https://www.ycombinator.com/companies/picnicai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: picnicai
+  slug: picnicai
+  matched_by: name-slug
 - name: Permutive
   status: unknown
   source: https://www.ycombinator.com/companies/permutive
-  in_network: false
-  is_api_provider: false
-  suggested_slug: permutive
+  in_network: true
+  is_api_provider: true
+  slug: permutive
+  matched_by: name-slug
 - name: Alchemy
   status: unknown
   source: https://www.ycombinator.com/companies/alchemy
@@ -1332,45 +1474,52 @@ companies:
 - name: Mtailor
   status: unknown
   source: https://www.ycombinator.com/companies/mtailor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mtailor
+  slug: mtailor
+  matched_by: name-slug
 - name: Metricwire
   status: unknown
   source: https://www.ycombinator.com/companies/metricwire
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metricwire
+  slug: metricwire
+  matched_by: name-slug
 - name: Protocol Labs
   status: unknown
   source: https://www.ycombinator.com/companies/protocol-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: protocol-labs
+  slug: protocol-labs
+  matched_by: name-slug
 - name: Greentoe
   status: unknown
   source: https://www.ycombinator.com/companies/greentoe
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greentoe
+  slug: greentoe
+  matched_by: name-slug
 - name: Hyperpad
   status: unknown
   source: https://www.ycombinator.com/companies/hyperpad
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyperpad
+  slug: hyperpad
+  matched_by: name-slug
 - name: Flaviar
   status: unknown
   source: https://www.ycombinator.com/companies/flaviar
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flaviar
+  slug: flaviar
+  matched_by: name-slug
 - name: Cleartax
   status: unknown
   source: https://www.ycombinator.com/companies/cleartax
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cleartax
+  slug: cleartax
+  matched_by: name-slug
 - name: Backpack
   status: unknown
   source: https://www.ycombinator.com/companies/backpack
@@ -1381,27 +1530,31 @@ companies:
 - name: Immunity Project
   status: unknown
   source: https://www.ycombinator.com/companies/immunity-project
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: immunity-project
+  slug: immunity-project
+  matched_by: name-slug
 - name: Dyspatch
   status: unknown
   source: https://www.ycombinator.com/companies/dyspatch
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dyspatch
+  in_network: true
+  is_api_provider: true
+  slug: dyspatch
+  matched_by: name-slug
 - name: Opencurriculum
   status: unknown
   source: https://www.ycombinator.com/companies/opencurriculum
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opencurriculum
+  slug: opencurriculum
+  matched_by: name-slug
 - name: Mixerbox
   status: unknown
   source: https://www.ycombinator.com/companies/mixerbox
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mixerbox
+  in_network: true
+  is_api_provider: true
+  slug: mixerbox
+  matched_by: name-slug
 - name: Y Combinator
   status: unknown
   source: https://www.ycombinator.com/companies/y-combinator
@@ -1412,27 +1565,31 @@ companies:
 - name: Gbatteries
   status: unknown
   source: https://www.ycombinator.com/companies/gbatteries
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gbatteries
+  slug: gbatteries
+  matched_by: name-slug
 - name: Zinc
   status: unknown
   source: https://www.ycombinator.com/companies/zinc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zinc
+  slug: zinc
+  matched_by: name-slug
 - name: Zidisha
   status: unknown
   source: https://www.ycombinator.com/companies/zidisha
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zidisha
+  slug: zidisha
+  matched_by: name-slug
 - name: Truevault
   status: unknown
   source: https://www.ycombinator.com/companies/truevault
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truevault
+  slug: truevault
+  matched_by: name-slug
 - name: Guesty
   status: unknown
   source: https://www.ycombinator.com/companies/guesty
@@ -1443,21 +1600,24 @@ companies:
 - name: Snapdocs
   status: unknown
   source: https://www.ycombinator.com/companies/snapdocs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snapdocs
+  slug: snapdocs
+  matched_by: name-slug
 - name: Medmonk
   status: unknown
   source: https://www.ycombinator.com/companies/medmonk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medmonk
+  slug: medmonk
+  matched_by: name-slug
 - name: Shoobs
   status: unknown
   source: https://www.ycombinator.com/companies/shoobs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shoobs
+  slug: shoobs
+  matched_by: name-slug
 - name: Pushbullet
   status: unknown
   source: https://www.ycombinator.com/companies/pushbullet
@@ -1468,93 +1628,108 @@ companies:
 - name: Povio
   status: unknown
   source: https://www.ycombinator.com/companies/povio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: povio
+  slug: povio
+  matched_by: name-slug
 - name: Piinpoint
   status: unknown
   source: https://www.ycombinator.com/companies/piinpoint
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: piinpoint
+  slug: piinpoint
+  matched_by: name-slug
 - name: One Degree
   status: unknown
   source: https://www.ycombinator.com/companies/one-degree
-  in_network: false
-  is_api_provider: false
-  suggested_slug: one-degree
+  in_network: true
+  is_api_provider: true
+  slug: one-degree
+  matched_by: name-slug
 - name: Mbx
   status: unknown
   source: https://www.ycombinator.com/companies/mbx
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mbx
+  slug: mbx
+  matched_by: name-slug
 - name: Emailio
   status: unknown
   source: https://www.ycombinator.com/companies/emailio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emailio
+  slug: emailio
+  matched_by: name-slug
 - name: Codenow
   status: unknown
   source: https://www.ycombinator.com/companies/codenow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: codenow
+  slug: codenow
+  matched_by: name-slug
 - name: Codecombat
   status: unknown
   source: https://www.ycombinator.com/companies/codecombat
-  in_network: false
-  is_api_provider: false
-  suggested_slug: codecombat
+  in_network: true
+  is_api_provider: true
+  slug: codecombat
+  matched_by: name-slug
 - name: Noora Health
   status: unknown
   source: https://www.ycombinator.com/companies/noora-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noora-health
+  slug: noora-health
+  matched_by: name-slug
 - name: Cambly
   status: unknown
   source: https://www.ycombinator.com/companies/cambly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cambly
+  slug: cambly
+  matched_by: name-slug
 - name: Aptdeco
   status: unknown
   source: https://www.ycombinator.com/companies/aptdeco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aptdeco
+  slug: aptdeco
+  matched_by: name-slug
 - name: Caremessage
   status: unknown
   source: https://www.ycombinator.com/companies/caremessage
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caremessage
+  slug: caremessage
+  matched_by: name-slug
 - name: Ambition
   status: unknown
   source: https://www.ycombinator.com/companies/ambition
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ambition
+  slug: ambition
+  matched_by: name-slug
 - name: Airhelp
   status: unknown
   source: https://www.ycombinator.com/companies/airhelp
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airhelp
+  slug: airhelp
+  matched_by: name-slug
 - name: True Link
   status: unknown
   source: https://www.ycombinator.com/companies/true-link
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: true-link
+  slug: true-link
+  matched_by: name-slug
 - name: Reebee
   status: unknown
   source: https://www.ycombinator.com/companies/reebee
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reebee
+  slug: reebee
+  matched_by: name-slug
 - name: Lob
   status: unknown
   source: https://www.ycombinator.com/companies/lob
@@ -1565,21 +1740,24 @@ companies:
 - name: Panorama Education
   status: unknown
   source: https://www.ycombinator.com/companies/panorama-education
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: panorama-education
+  slug: panorama-education
+  matched_by: name-slug
 - name: Cratejoy
   status: unknown
   source: https://www.ycombinator.com/companies/cratejoy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cratejoy
+  slug: cratejoy
+  matched_by: name-slug
 - name: Estimote Inc
   status: unknown
   source: https://www.ycombinator.com/companies/estimote-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: estimote-inc
+  slug: estimote-inc
+  matched_by: name-slug
 - name: Easypost
   status: unknown
   source: https://www.ycombinator.com/companies/easypost
@@ -1590,63 +1768,73 @@ companies:
 - name: Asseta
   status: unknown
   source: https://www.ycombinator.com/companies/asseta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asseta
+  slug: asseta
+  matched_by: name-slug
 - name: Per Vices
   status: unknown
   source: https://www.ycombinator.com/companies/per-vices
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: per-vices
+  slug: per-vices
+  matched_by: name-slug
 - name: 7cups
   status: unknown
   source: https://www.ycombinator.com/companies/7cups
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 7cups
+  slug: 7cups
+  matched_by: name-slug
 - name: Watsi
   status: unknown
   source: https://www.ycombinator.com/companies/watsi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: watsi
+  slug: watsi
+  matched_by: name-slug
 - name: Goldbelly
   status: unknown
   source: https://www.ycombinator.com/companies/goldbelly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goldbelly
+  slug: goldbelly
+  matched_by: name-slug
 - name: Wevorce
   status: unknown
   source: https://www.ycombinator.com/companies/wevorce
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wevorce
+  slug: wevorce
+  matched_by: name-slug
 - name: Wefunder
   status: unknown
   source: https://www.ycombinator.com/companies/wefunder
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wefunder
+  in_network: true
+  is_api_provider: true
+  slug: wefunder
+  matched_by: name-slug
 - name: Simplyinsured
   status: unknown
   source: https://www.ycombinator.com/companies/simplyinsured
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simplyinsured
+  slug: simplyinsured
+  matched_by: name-slug
 - name: Circuithub
   status: unknown
   source: https://www.ycombinator.com/companies/circuithub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circuithub
+  slug: circuithub
+  matched_by: name-slug
 - name: Experiment
   status: unknown
   source: https://www.ycombinator.com/companies/experiment
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: experiment
+  slug: experiment
+  matched_by: name-slug
 - name: Radar
   status: unknown
   source: https://www.ycombinator.com/companies/radar
@@ -1657,9 +1845,10 @@ companies:
 - name: Lollipuff
   status: unknown
   source: https://www.ycombinator.com/companies/lollipuff
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lollipuff
+  slug: lollipuff
+  matched_by: name-slug
 - name: Strikingly
   status: unknown
   source: https://www.ycombinator.com/companies/strikingly
@@ -1670,15 +1859,17 @@ companies:
 - name: Influxdata
   status: unknown
   source: https://www.ycombinator.com/companies/influxdata
-  in_network: false
-  is_api_provider: false
-  suggested_slug: influxdata
+  in_network: true
+  is_api_provider: true
+  slug: influxdata
+  matched_by: name-slug
 - name: Etleap
   status: unknown
   source: https://www.ycombinator.com/companies/etleap
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: etleap
+  slug: etleap
+  matched_by: name-slug
 - name: Cheetah
   status: unknown
   source: https://www.ycombinator.com/companies/cheetah
@@ -1689,45 +1880,52 @@ companies:
 - name: Lawdingo
   status: unknown
   source: https://www.ycombinator.com/companies/lawdingo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lawdingo
+  slug: lawdingo
+  matched_by: name-slug
 - name: Padlet
   status: unknown
   source: https://www.ycombinator.com/companies/padlet
-  in_network: false
-  is_api_provider: false
-  suggested_slug: padlet
+  in_network: true
+  is_api_provider: true
+  slug: padlet
+  matched_by: name-slug
 - name: Buildzoom
   status: unknown
   source: https://www.ycombinator.com/companies/buildzoom
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buildzoom
+  slug: buildzoom
+  matched_by: name-slug
 - name: Circuitlab
   status: unknown
   source: https://www.ycombinator.com/companies/circuitlab
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circuitlab
+  slug: circuitlab
+  matched_by: name-slug
 - name: Styleup
   status: unknown
   source: https://www.ycombinator.com/companies/styleup
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: styleup
+  slug: styleup
+  matched_by: name-slug
 - name: 9gag
   status: unknown
   source: https://www.ycombinator.com/companies/9gag
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 9gag
+  slug: 9gag
+  matched_by: name-slug
 - name: Svbtle
   status: unknown
   source: https://www.ycombinator.com/companies/svbtle
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: svbtle
+  slug: svbtle
+  matched_by: name-slug
 - name: Plivo
   status: unknown
   source: https://www.ycombinator.com/companies/plivo
@@ -1738,27 +1936,31 @@ companies:
 - name: Double Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/double-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: double-robotics
+  slug: double-robotics
+  matched_by: name-slug
 - name: Vastrm
   status: unknown
   source: https://www.ycombinator.com/companies/vastrm
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vastrm
+  slug: vastrm
+  matched_by: name-slug
 - name: Flightfox
   status: unknown
   source: https://www.ycombinator.com/companies/flightfox
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flightfox
+  slug: flightfox
+  matched_by: name-slug
 - name: Backerkit
   status: unknown
   source: https://www.ycombinator.com/companies/backerkit
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: backerkit
+  slug: backerkit
+  matched_by: name-slug
 - name: Submittable
   status: unknown
   source: https://www.ycombinator.com/companies/submittable
@@ -1769,21 +1971,24 @@ companies:
 - name: Newsblur
   status: unknown
   source: https://www.ycombinator.com/companies/newsblur
-  in_network: false
-  is_api_provider: false
-  suggested_slug: newsblur
+  in_network: true
+  is_api_provider: true
+  slug: newsblur
+  matched_by: name-slug
 - name: Octavewealth
   status: unknown
   source: https://www.ycombinator.com/companies/octavewealth
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: octavewealth
+  slug: octavewealth
+  matched_by: name-slug
 - name: Upwave
   status: unknown
   source: https://www.ycombinator.com/companies/upwave
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upwave
+  slug: upwave
+  matched_by: name-slug
 - name: Eligible
   status: unknown
   source: https://www.ycombinator.com/companies/eligible
@@ -1794,15 +1999,17 @@ companies:
 - name: Fundersclub
   status: unknown
   source: https://www.ycombinator.com/companies/fundersclub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fundersclub
+  slug: fundersclub
+  matched_by: name-slug
 - name: Zentail
   status: unknown
   source: https://www.ycombinator.com/companies/zentail
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zentail
+  slug: zentail
+  matched_by: name-slug
 - name: Mattermost
   status: unknown
   source: https://www.ycombinator.com/companies/mattermost
@@ -1813,315 +2020,367 @@ companies:
 - name: Healthsherpa
   status: unknown
   source: https://www.ycombinator.com/companies/healthsherpa
-  in_network: false
-  is_api_provider: false
-  suggested_slug: healthsherpa
+  in_network: true
+  is_api_provider: true
+  slug: healthsherpa
+  matched_by: name-slug
 - name: Human Dx
   status: unknown
   source: https://www.ycombinator.com/companies/human-dx
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-dx
+  slug: human-dx
+  matched_by: name-slug
 - name: Mth Sense
   status: unknown
   source: https://www.ycombinator.com/companies/mth-sense
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mth-sense
+  slug: mth-sense
+  matched_by: name-slug
 - name: Rainforest
   status: unknown
   source: https://www.ycombinator.com/companies/rainforest
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rainforest
+  in_network: true
+  is_api_provider: true
+  slug: rainforest
+  matched_by: name-slug
 - name: Screenleap Inc
   status: unknown
   source: https://www.ycombinator.com/companies/screenleap-inc
-  in_network: false
-  is_api_provider: false
-  suggested_slug: screenleap-inc
+  in_network: true
+  is_api_provider: true
+  slug: screenleap-inc
+  matched_by: name-slug
 - name: Buxfer
   status: unknown
   source: https://www.ycombinator.com/companies/buxfer
-  in_network: false
-  is_api_provider: false
-  suggested_slug: buxfer
+  in_network: true
+  is_api_provider: true
+  slug: buxfer
+  matched_by: name-slug
 - name: Virtualmin
   status: unknown
   source: https://www.ycombinator.com/companies/virtualmin
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virtualmin
+  slug: virtualmin
+  matched_by: name-slug
 - name: Conifer
   status: unknown
   source: https://www.ycombinator.com/companies/conifer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: conifer
+  slug: conifer
+  matched_by: name-slug
 - name: Simantic
   status: unknown
   source: https://www.ycombinator.com/companies/simantic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simantic
+  slug: simantic
+  matched_by: name-slug
 - name: Experiential Labs
   status: unknown
   source: https://www.ycombinator.com/companies/experiential-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: experiential-labs
+  slug: experiential-labs
+  matched_by: name-slug
 - name: Edviro
   status: unknown
   source: https://www.ycombinator.com/companies/edviro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edviro
+  slug: edviro
+  matched_by: name-slug
 - name: Coasty
   status: unknown
   source: https://www.ycombinator.com/companies/coasty
-  in_network: false
-  is_api_provider: false
-  suggested_slug: coasty
+  in_network: true
+  is_api_provider: true
+  slug: coasty
+  matched_by: name-slug
 - name: Hardware Intelligence
   status: unknown
   source: https://www.ycombinator.com/companies/hardware-intelligence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hardware-intelligence
+  slug: hardware-intelligence
+  matched_by: name-slug
 - name: Osseus
   status: unknown
   source: https://www.ycombinator.com/companies/osseus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: osseus
+  slug: osseus
+  matched_by: name-slug
 - name: Salem Robotics Inc
   status: unknown
   source: https://www.ycombinator.com/companies/salem-robotics-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salem-robotics-inc
+  slug: salem-robotics-inc
+  matched_by: name-slug
 - name: Robocurve
   status: unknown
   source: https://www.ycombinator.com/companies/robocurve
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: robocurve
+  slug: robocurve
+  matched_by: name-slug
 - name: Nex
   status: unknown
   source: https://www.ycombinator.com/companies/nex
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nex
+  in_network: true
+  is_api_provider: true
+  slug: nex
+  matched_by: name-slug
 - name: Onecli
   status: unknown
   source: https://www.ycombinator.com/companies/onecli
-  in_network: false
-  is_api_provider: false
-  suggested_slug: onecli
+  in_network: true
+  is_api_provider: true
+  slug: onecli
+  matched_by: name-slug
 - name: Amulet
   status: unknown
   source: https://www.ycombinator.com/companies/amulet
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amulet
+  slug: amulet
+  matched_by: name-slug
 - name: Subvysion
   status: unknown
   source: https://www.ycombinator.com/companies/subvysion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: subvysion
+  slug: subvysion
+  matched_by: name-slug
 - name: Petrarch
   status: unknown
   source: https://www.ycombinator.com/companies/petrarch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: petrarch
+  slug: petrarch
+  matched_by: name-slug
 - name: Justinian
   status: unknown
   source: https://www.ycombinator.com/companies/justinian
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: justinian
+  slug: justinian
+  matched_by: name-slug
 - name: Florin
   status: unknown
   source: https://www.ycombinator.com/companies/florin
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: florin
+  slug: florin
+  matched_by: name-slug
 - name: Earendil Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/earendil-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: earendil-robotics
+  slug: earendil-robotics
+  matched_by: name-slug
 - name: Hop Aero
   status: unknown
   source: https://www.ycombinator.com/companies/hop-aero
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hop-aero
+  slug: hop-aero
+  matched_by: name-slug
 - name: Openrelay
   status: unknown
   source: https://www.ycombinator.com/companies/openrelay
-  in_network: false
-  is_api_provider: false
-  suggested_slug: openrelay
+  in_network: true
+  is_api_provider: true
+  slug: openrelay
+  matched_by: name-slug
 - name: Hyperprobe
   status: unknown
   source: https://www.ycombinator.com/companies/hyperprobe
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyperprobe
+  slug: hyperprobe
+  matched_by: name-slug
 - name: Skymerse
   status: unknown
   source: https://www.ycombinator.com/companies/skymerse
-  in_network: false
-  is_api_provider: false
-  suggested_slug: skymerse
+  in_network: true
+  is_api_provider: true
+  slug: skymerse
+  matched_by: name-slug
 - name: 83 Sciences
   status: unknown
   source: https://www.ycombinator.com/companies/83-sciences
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 83-sciences
+  slug: 83-sciences
+  matched_by: name-slug
 - name: Mireye
   status: unknown
   source: https://www.ycombinator.com/companies/mireye
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mireye
+  in_network: true
+  is_api_provider: true
+  slug: mireye
+  matched_by: name-slug
 - name: Axelrod
   status: unknown
   source: https://www.ycombinator.com/companies/axelrod
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: axelrod
+  slug: axelrod
+  matched_by: name-slug
 - name: Levocred Ai
   status: unknown
   source: https://www.ycombinator.com/companies/levocred-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: levocred-ai
+  slug: levocred-ai
+  matched_by: name-slug
 - name: Praxis Ai 2
   status: unknown
   source: https://www.ycombinator.com/companies/praxis-ai-2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: praxis-ai-2
+  slug: praxis-ai-2
+  matched_by: name-slug
 - name: Care Gp
   status: unknown
   source: https://www.ycombinator.com/companies/care-gp
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: care-gp
+  slug: care-gp
+  matched_by: name-slug
 - name: Agnost Ai
   status: unknown
   source: https://www.ycombinator.com/companies/agnost-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: agnost-ai
+  in_network: true
+  is_api_provider: true
+  slug: agnost-ai
+  matched_by: name-slug
 - name: Agentcard
   status: unknown
   source: https://www.ycombinator.com/companies/agentcard
-  in_network: false
-  is_api_provider: false
-  suggested_slug: agentcard
+  in_network: true
+  is_api_provider: true
+  slug: agentcard
+  matched_by: name-slug
 - name: Provenmetal
   status: unknown
   source: https://www.ycombinator.com/companies/provenmetal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: provenmetal
+  slug: provenmetal
+  matched_by: name-slug
 - name: Inkbox
   status: unknown
   source: https://www.ycombinator.com/companies/inkbox
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inkbox
+  slug: inkbox
+  matched_by: name-slug
 - name: Operon
   status: unknown
   source: https://www.ycombinator.com/companies/operon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: operon
+  slug: operon
+  matched_by: name-slug
 - name: Cosmic Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/cosmic-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cosmic-robotics
+  slug: cosmic-robotics
+  matched_by: name-slug
 - name: Markov
   status: unknown
   source: https://www.ycombinator.com/companies/markov
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: markov
+  slug: markov
+  matched_by: name-slug
 - name: Denta
   status: unknown
   source: https://www.ycombinator.com/companies/denta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: denta
+  slug: denta
+  matched_by: name-slug
 - name: Isengard Industries Inc
   status: unknown
   source: https://www.ycombinator.com/companies/isengard-industries-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: isengard-industries-inc
+  slug: isengard-industries-inc
+  matched_by: name-slug
 - name: Vestris
   status: unknown
   source: https://www.ycombinator.com/companies/vestris
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vestris
+  slug: vestris
+  matched_by: name-slug
 - name: Lato
   status: unknown
   source: https://www.ycombinator.com/companies/lato
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lato
+  slug: lato
+  matched_by: name-slug
 - name: Risklytics
   status: unknown
   source: https://www.ycombinator.com/companies/risklytics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: risklytics
+  slug: risklytics
+  matched_by: name-slug
 - name: Daqstra
   status: unknown
   source: https://www.ycombinator.com/companies/daqstra
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daqstra
+  slug: daqstra
+  matched_by: name-slug
 - name: Fabraix
   status: unknown
   source: https://www.ycombinator.com/companies/fabraix
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabraix
+  slug: fabraix
+  matched_by: name-slug
 - name: Rational
   status: unknown
   source: https://www.ycombinator.com/companies/rational
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rational
+  slug: rational
+  matched_by: name-slug
 - name: Aktoria Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/aktoria-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aktoria-robotics
+  slug: aktoria-robotics
+  matched_by: name-slug
 - name: Whitespace
   status: unknown
   source: https://www.ycombinator.com/companies/whitespace
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whitespace
+  slug: whitespace
+  matched_by: name-slug
 - name: Blue Frog Gaming
   status: unknown
   source: https://www.ycombinator.com/companies/blue-frog-gaming
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blue-frog-gaming
+  slug: blue-frog-gaming
+  matched_by: name-slug
 - name: Almanac
   status: unknown
   source: https://www.ycombinator.com/companies/almanac
@@ -2132,963 +2391,1123 @@ companies:
 - name: Greypoint Industries
   status: unknown
   source: https://www.ycombinator.com/companies/greypoint-industries
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greypoint-industries
+  slug: greypoint-industries
+  matched_by: name-slug
 - name: Ooak Data
   status: unknown
   source: https://www.ycombinator.com/companies/ooak-data
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ooak-data
+  slug: ooak-data
+  matched_by: name-slug
 - name: Noril1
   status: unknown
   source: https://www.ycombinator.com/companies/noril1
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noril1
+  slug: noril1
+  matched_by: name-slug
 - name: 6thsense
   status: unknown
   source: https://www.ycombinator.com/companies/6thsense
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 6thsense
+  slug: 6thsense
+  matched_by: name-slug
 - name: Bloomy
   status: unknown
   source: https://www.ycombinator.com/companies/bloomy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bloomy
+  slug: bloomy
+  matched_by: name-slug
 - name: Machine0
   status: unknown
   source: https://www.ycombinator.com/companies/machine0
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: machine0
+  slug: machine0
+  matched_by: name-slug
 - name: Talentpluto
   status: unknown
   source: https://www.ycombinator.com/companies/talentpluto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: talentpluto
+  slug: talentpluto
+  matched_by: name-slug
 - name: Flowmanual
   status: unknown
   source: https://www.ycombinator.com/companies/flowmanual
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flowmanual
+  slug: flowmanual
+  matched_by: name-slug
 - name: Molagri
   status: unknown
   source: https://www.ycombinator.com/companies/molagri
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: molagri
+  slug: molagri
+  matched_by: name-slug
 - name: Cerenovus
   status: unknown
   source: https://www.ycombinator.com/companies/cerenovus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cerenovus
+  slug: cerenovus
+  matched_by: name-slug
 - name: Definite
   status: unknown
   source: https://www.ycombinator.com/companies/definite
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: definite
+  slug: definite
+  matched_by: name-slug
 - name: Alkera Ai
   status: unknown
   source: https://www.ycombinator.com/companies/alkera-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alkera-ai
+  slug: alkera-ai
+  matched_by: name-slug
 - name: Screenpipe
   status: unknown
   source: https://www.ycombinator.com/companies/screenpipe
-  in_network: false
-  is_api_provider: false
-  suggested_slug: screenpipe
+  in_network: true
+  is_api_provider: true
+  slug: screenpipe
+  matched_by: name-slug
 - name: Touchmark
   status: unknown
   source: https://www.ycombinator.com/companies/touchmark
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: touchmark
+  slug: touchmark
+  matched_by: name-slug
 - name: Codag
   status: unknown
   source: https://www.ycombinator.com/companies/codag
-  in_network: false
-  is_api_provider: false
-  suggested_slug: codag
+  in_network: true
+  is_api_provider: true
+  slug: codag
+  matched_by: name-slug
 - name: Contextdev
   status: unknown
   source: https://www.ycombinator.com/companies/contextdev
-  in_network: false
-  is_api_provider: false
-  suggested_slug: contextdev
+  in_network: true
+  is_api_provider: true
+  slug: contextdev
+  matched_by: name-slug
 - name: Glen
   status: unknown
   source: https://www.ycombinator.com/companies/glen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glen
+  slug: glen
+  matched_by: name-slug
 - name: Truffle
   status: unknown
   source: https://www.ycombinator.com/companies/truffle
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: truffle
+  slug: truffle
+  matched_by: name-slug
 - name: Alloovium
   status: unknown
   source: https://www.ycombinator.com/companies/alloovium
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alloovium
+  slug: alloovium
+  matched_by: name-slug
 - name: Dialogus
   status: unknown
   source: https://www.ycombinator.com/companies/dialogus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dialogus
+  slug: dialogus
+  matched_by: name-slug
 - name: Realpact
   status: unknown
   source: https://www.ycombinator.com/companies/realpact
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: realpact
+  slug: realpact
+  matched_by: name-slug
 - name: Guild
   status: unknown
   source: https://www.ycombinator.com/companies/guild
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guild
+  slug: guild
+  matched_by: name-slug
 - name: Floracene
   status: unknown
   source: https://www.ycombinator.com/companies/floracene
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: floracene
+  slug: floracene
+  matched_by: name-slug
 - name: Rise Reforming
   status: unknown
   source: https://www.ycombinator.com/companies/rise-reforming
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rise-reforming
+  slug: rise-reforming
+  matched_by: name-slug
 - name: Instaplay
   status: unknown
   source: https://www.ycombinator.com/companies/instaplay
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instaplay
+  slug: instaplay
+  matched_by: name-slug
 - name: Verdant
   status: unknown
   source: https://www.ycombinator.com/companies/verdant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verdant
+  slug: verdant
+  matched_by: name-slug
 - name: Insurf
   status: unknown
   source: https://www.ycombinator.com/companies/insurf
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insurf
+  slug: insurf
+  matched_by: name-slug
 - name: Lemonlime
   status: unknown
   source: https://www.ycombinator.com/companies/lemonlime
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lemonlime
+  slug: lemonlime
+  matched_by: name-slug
 - name: Speko
   status: unknown
   source: https://www.ycombinator.com/companies/speko
-  in_network: false
-  is_api_provider: false
-  suggested_slug: speko
+  in_network: true
+  is_api_provider: true
+  slug: speko
+  matched_by: name-slug
 - name: Understudy Labs
   status: unknown
   source: https://www.ycombinator.com/companies/understudy-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: understudy-labs
+  in_network: true
+  is_api_provider: true
+  slug: understudy-labs
+  matched_by: name-slug
 - name: Rote
   status: unknown
   source: https://www.ycombinator.com/companies/rote
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rote
+  slug: rote
+  matched_by: name-slug
 - name: Prized
   status: unknown
   source: https://www.ycombinator.com/companies/prized
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prized
+  slug: prized
+  matched_by: name-slug
 - name: Rex Inc
   status: unknown
   source: https://www.ycombinator.com/companies/rex-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rex-inc
+  slug: rex-inc
+  matched_by: name-slug
 - name: Zomma
   status: unknown
   source: https://www.ycombinator.com/companies/zomma
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zomma
+  slug: zomma
+  matched_by: name-slug
 - name: Nebula Security
   status: unknown
   source: https://www.ycombinator.com/companies/nebula-security
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nebula-security
+  slug: nebula-security
+  matched_by: name-slug
 - name: Trope
   status: unknown
   source: https://www.ycombinator.com/companies/trope
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trope
+  slug: trope
+  matched_by: name-slug
 - name: Parasma
   status: unknown
   source: https://www.ycombinator.com/companies/parasma
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parasma
+  slug: parasma
+  matched_by: name-slug
 - name: Belvedir
   status: unknown
   source: https://www.ycombinator.com/companies/belvedir
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: belvedir
+  slug: belvedir
+  matched_by: name-slug
 - name: Notyfi
   status: unknown
   source: https://www.ycombinator.com/companies/notyfi
-  in_network: false
-  is_api_provider: false
-  suggested_slug: notyfi
+  in_network: true
+  is_api_provider: true
+  slug: notyfi
+  matched_by: name-slug
 - name: Donkey
   status: unknown
   source: https://www.ycombinator.com/companies/donkey
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: donkey
+  slug: donkey
+  matched_by: name-slug
 - name: Opentrade
   status: unknown
   source: https://www.ycombinator.com/companies/opentrade
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opentrade
+  slug: opentrade
+  matched_by: name-slug
 - name: Hoplite
   status: unknown
   source: https://www.ycombinator.com/companies/hoplite
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hoplite
+  slug: hoplite
+  matched_by: name-slug
 - name: Cleverdeck
   status: unknown
   source: https://www.ycombinator.com/companies/cleverdeck
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cleverdeck
+  slug: cleverdeck
+  matched_by: name-slug
 - name: Pango
   status: unknown
   source: https://www.ycombinator.com/companies/pango
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pango
+  slug: pango
+  matched_by: name-slug
 - name: Torus
   status: unknown
   source: https://www.ycombinator.com/companies/torus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: torus
+  slug: torus
+  matched_by: name-slug
 - name: Rightnow
   status: unknown
   source: https://www.ycombinator.com/companies/rightnow
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rightnow
+  in_network: true
+  is_api_provider: true
+  slug: rightnow
+  matched_by: name-slug
 - name: Akkari
   status: unknown
   source: https://www.ycombinator.com/companies/akkari
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: akkari
+  slug: akkari
+  matched_by: name-slug
 - name: Heyclicky
   status: unknown
   source: https://www.ycombinator.com/companies/heyclicky
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: heyclicky
+  slug: heyclicky
+  matched_by: name-slug
 - name: Rindler
   status: unknown
   source: https://www.ycombinator.com/companies/rindler
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rindler
+  slug: rindler
+  matched_by: name-slug
 - name: Huscarl
   status: unknown
   source: https://www.ycombinator.com/companies/huscarl
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: huscarl
+  slug: huscarl
+  matched_by: name-slug
 - name: Thomas
   status: unknown
   source: https://www.ycombinator.com/companies/thomas
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thomas
+  slug: thomas
+  matched_by: name-slug
 - name: Cohesion
   status: unknown
   source: https://www.ycombinator.com/companies/cohesion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cohesion
+  slug: cohesion
+  matched_by: name-slug
 - name: Maquoketa Research
   status: unknown
   source: https://www.ycombinator.com/companies/maquoketa-research
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maquoketa-research
+  slug: maquoketa-research
+  matched_by: name-slug
 - name: Intelligence Factory
   status: unknown
   source: https://www.ycombinator.com/companies/intelligence-factory
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intelligence-factory
+  slug: intelligence-factory
+  matched_by: name-slug
 - name: Clawvisor
   status: unknown
   source: https://www.ycombinator.com/companies/clawvisor
-  in_network: false
-  is_api_provider: false
-  suggested_slug: clawvisor
+  in_network: true
+  is_api_provider: true
+  slug: clawvisor
+  matched_by: name-slug
 - name: Framewise Health
   status: unknown
   source: https://www.ycombinator.com/companies/framewise-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: framewise-health
+  slug: framewise-health
+  matched_by: name-slug
 - name: Arctic Health
   status: unknown
   source: https://www.ycombinator.com/companies/arctic-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arctic-health
+  slug: arctic-health
+  matched_by: name-slug
 - name: Playablai
   status: unknown
   source: https://www.ycombinator.com/companies/playablai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: playablai
+  slug: playablai
+  matched_by: name-slug
 - name: Enjamb Labs
   status: unknown
   source: https://www.ycombinator.com/companies/enjamb-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enjamb-labs
+  slug: enjamb-labs
+  matched_by: name-slug
 - name: Hyper 4
   status: unknown
   source: https://www.ycombinator.com/companies/hyper-4
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hyper-4
+  slug: hyper-4
+  matched_by: name-slug
 - name: Insforge
   status: unknown
   source: https://www.ycombinator.com/companies/insforge
-  in_network: false
-  is_api_provider: false
-  suggested_slug: insforge
+  in_network: true
+  is_api_provider: true
+  slug: insforge
+  matched_by: name-slug
 - name: Reasonblocks
   status: unknown
   source: https://www.ycombinator.com/companies/reasonblocks
-  in_network: false
-  is_api_provider: false
-  suggested_slug: reasonblocks
+  in_network: true
+  is_api_provider: true
+  slug: reasonblocks
+  matched_by: name-slug
 - name: Modern
   status: unknown
   source: https://www.ycombinator.com/companies/modern
-  in_network: false
-  is_api_provider: false
-  suggested_slug: modern
+  in_network: true
+  is_api_provider: true
+  slug: modern
+  matched_by: name-slug
 - name: Panacea
   status: unknown
   source: https://www.ycombinator.com/companies/panacea
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: panacea
+  slug: panacea
+  matched_by: name-slug
 - name: Centralcoms
   status: unknown
   source: https://www.ycombinator.com/companies/centralcoms
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: centralcoms
+  slug: centralcoms
+  matched_by: name-slug
 - name: Kugelaudio
   status: unknown
   source: https://www.ycombinator.com/companies/kugelaudio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kugelaudio
+  in_network: true
+  is_api_provider: true
+  slug: kugelaudio
+  matched_by: name-slug
 - name: Klaimee
   status: unknown
   source: https://www.ycombinator.com/companies/klaimee
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klaimee
+  slug: klaimee
+  matched_by: name-slug
 - name: Flowscope
   status: unknown
   source: https://www.ycombinator.com/companies/flowscope
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flowscope
+  slug: flowscope
+  matched_by: name-slug
 - name: Gigacatalyst
   status: unknown
   source: https://www.ycombinator.com/companies/gigacatalyst
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gigacatalyst
+  slug: gigacatalyst
+  matched_by: name-slug
 - name: Arlo Industries
   status: unknown
   source: https://www.ycombinator.com/companies/arlo-industries
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arlo-industries
+  slug: arlo-industries
+  matched_by: name-slug
 - name: Astraea
   status: unknown
   source: https://www.ycombinator.com/companies/astraea
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: astraea
+  slug: astraea
+  matched_by: name-slug
 - name: Lattice Health
   status: unknown
   source: https://www.ycombinator.com/companies/lattice-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lattice-health
+  slug: lattice-health
+  matched_by: name-slug
 - name: Atlas Discovery
   status: unknown
   source: https://www.ycombinator.com/companies/atlas-discovery
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atlas-discovery
+  slug: atlas-discovery
+  matched_by: name-slug
 - name: Manicule
   status: unknown
   source: https://www.ycombinator.com/companies/manicule
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manicule
+  slug: manicule
+  matched_by: name-slug
 - name: Avea Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/avea-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avea-robotics
+  slug: avea-robotics
+  matched_by: name-slug
 - name: Mochatrade
   status: unknown
   source: https://www.ycombinator.com/companies/mochatrade
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mochatrade
+  slug: mochatrade
+  matched_by: name-slug
 - name: Asendia Ai
   status: unknown
   source: https://www.ycombinator.com/companies/asendia-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asendia-ai
+  slug: asendia-ai
+  matched_by: name-slug
 - name: Revnu
   status: unknown
   source: https://www.ycombinator.com/companies/revnu
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: revnu
+  slug: revnu
+  matched_by: name-slug
 - name: Uno Wallet
   status: unknown
   source: https://www.ycombinator.com/companies/uno-wallet
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uno-wallet
+  slug: uno-wallet
+  matched_by: name-slug
 - name: Arden
   status: unknown
   source: https://www.ycombinator.com/companies/arden
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arden
+  slug: arden
+  matched_by: name-slug
 - name: Agentphone
   status: unknown
   source: https://www.ycombinator.com/companies/agentphone
-  in_network: false
-  is_api_provider: false
-  suggested_slug: agentphone
+  in_network: true
+  is_api_provider: true
+  slug: agentphone
+  matched_by: name-slug
 - name: Gravy
   status: unknown
   source: https://www.ycombinator.com/companies/gravy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gravy
+  slug: gravy
+  matched_by: name-slug
 - name: Kinect
   status: unknown
   source: https://www.ycombinator.com/companies/kinect
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kinect
+  slug: kinect
+  matched_by: name-slug
 - name: Runtime
   status: unknown
   source: https://www.ycombinator.com/companies/runtime
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runtime
+  slug: runtime
+  matched_by: name-slug
 - name: Youart
   status: unknown
   source: https://www.ycombinator.com/companies/youart
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: youart
+  slug: youart
+  matched_by: name-slug
 - name: Expanse
   status: unknown
   source: https://www.ycombinator.com/companies/expanse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: expanse
+  slug: expanse
+  matched_by: name-slug
 - name: Characterquilt
   status: unknown
   source: https://www.ycombinator.com/companies/characterquilt
-  in_network: false
-  is_api_provider: false
-  suggested_slug: characterquilt
+  in_network: true
+  is_api_provider: true
+  slug: characterquilt
+  matched_by: name-slug
 - name: Pentagon
   status: unknown
   source: https://www.ycombinator.com/companies/pentagon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pentagon
+  slug: pentagon
+  matched_by: name-slug
 - name: Arzana
   status: unknown
   source: https://www.ycombinator.com/companies/arzana
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arzana
+  slug: arzana
+  matched_by: name-slug
 - name: Auxos
   status: unknown
   source: https://www.ycombinator.com/companies/auxos
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: auxos
+  slug: auxos
+  matched_by: name-slug
 - name: Projectx
   status: unknown
   source: https://www.ycombinator.com/companies/projectx
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: projectx
+  slug: projectx
+  matched_by: name-slug
 - name: Tolmo
   status: unknown
   source: https://www.ycombinator.com/companies/tolmo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tolmo
+  slug: tolmo
+  matched_by: name-slug
 - name: Openwork
   status: unknown
   source: https://www.ycombinator.com/companies/openwork
-  in_network: false
-  is_api_provider: false
-  suggested_slug: openwork
+  in_network: true
+  is_api_provider: true
+  slug: openwork
+  matched_by: name-slug
 - name: Apollo Atomics Inc
   status: unknown
   source: https://www.ycombinator.com/companies/apollo-atomics-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apollo-atomics-inc
+  slug: apollo-atomics-inc
+  matched_by: name-slug
 - name: General Aviation
   status: unknown
   source: https://www.ycombinator.com/companies/general-aviation
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: general-aviation
+  slug: general-aviation
+  matched_by: name-slug
 - name: Openprose
   status: unknown
   source: https://www.ycombinator.com/companies/openprose
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openprose
+  slug: openprose
+  matched_by: name-slug
 - name: Asterlab
   status: unknown
   source: https://www.ycombinator.com/companies/asterlab
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asterlab
+  slug: asterlab
+  matched_by: name-slug
 - name: Amboras
   status: unknown
   source: https://www.ycombinator.com/companies/amboras
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amboras
+  slug: amboras
+  matched_by: name-slug
 - name: Hessian
   status: unknown
   source: https://www.ycombinator.com/companies/hessian
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hessian
+  slug: hessian
+  matched_by: name-slug
 - name: Raspire
   status: unknown
   source: https://www.ycombinator.com/companies/raspire
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raspire
+  slug: raspire
+  matched_by: name-slug
 - name: Plena Health
   status: unknown
   source: https://www.ycombinator.com/companies/plena-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plena-health
+  slug: plena-health
+  matched_by: name-slug
 - name: Testerarmy
   status: unknown
   source: https://www.ycombinator.com/companies/testerarmy
-  in_network: false
-  is_api_provider: false
-  suggested_slug: testerarmy
+  in_network: true
+  is_api_provider: true
+  slug: testerarmy
+  matched_by: name-slug
 - name: Eden Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/eden-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eden-robotics
+  slug: eden-robotics
+  matched_by: name-slug
 - name: Foaster
   status: unknown
   source: https://www.ycombinator.com/companies/foaster
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: foaster
+  slug: foaster
+  matched_by: name-slug
 - name: Aquashield
   status: unknown
   source: https://www.ycombinator.com/companies/aquashield
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aquashield
+  slug: aquashield
+  matched_by: name-slug
 - name: Ornadyne
   status: unknown
   source: https://www.ycombinator.com/companies/ornadyne
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ornadyne
+  slug: ornadyne
+  matched_by: name-slug
 - name: Anoria
   status: unknown
   source: https://www.ycombinator.com/companies/anoria
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anoria
+  slug: anoria
+  matched_by: name-slug
 - name: Abinitio Bio
   status: unknown
   source: https://www.ycombinator.com/companies/abinitio-bio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abinitio-bio
+  slug: abinitio-bio
+  matched_by: name-slug
 - name: Memory Store
   status: unknown
   source: https://www.ycombinator.com/companies/memory-store
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: memory-store
+  slug: memory-store
+  matched_by: name-slug
 - name: Saudara Ai
   status: unknown
   source: https://www.ycombinator.com/companies/saudara-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saudara-ai
+  slug: saudara-ai
+  matched_by: name-slug
 - name: Pops
   status: unknown
   source: https://www.ycombinator.com/companies/pops
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pops
+  slug: pops
+  matched_by: name-slug
 - name: Silmaril
   status: unknown
   source: https://www.ycombinator.com/companies/silmaril
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silmaril
+  slug: silmaril
+  matched_by: name-slug
 - name: Biostack Platforms
   status: unknown
   source: https://www.ycombinator.com/companies/biostack-platforms
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: biostack-platforms
+  slug: biostack-platforms
+  matched_by: name-slug
 - name: Shepherd 3
   status: unknown
   source: https://www.ycombinator.com/companies/shepherd-3
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shepherd-3
+  slug: shepherd-3
+  matched_by: name-slug
 - name: Ardent
   status: unknown
   source: https://www.ycombinator.com/companies/ardent
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ardent
+  in_network: true
+  is_api_provider: true
+  slug: ardent
+  matched_by: name-slug
 - name: Kuli
   status: unknown
   source: https://www.ycombinator.com/companies/kuli
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kuli
+  slug: kuli
+  matched_by: name-slug
 - name: Wato
   status: unknown
   source: https://www.ycombinator.com/companies/wato
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wato
+  slug: wato
+  matched_by: name-slug
 - name: Tasklet 2
   status: unknown
   source: https://www.ycombinator.com/companies/tasklet-2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tasklet-2
+  slug: tasklet-2
+  matched_by: name-slug
 - name: Chronicle Labs
   status: unknown
   source: https://www.ycombinator.com/companies/chronicle-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chronicle-labs
+  slug: chronicle-labs
+  matched_by: name-slug
 - name: Walter
   status: unknown
   source: https://www.ycombinator.com/companies/walter
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: walter
+  slug: walter
+  matched_by: name-slug
 - name: Aseon Labs
   status: unknown
   source: https://www.ycombinator.com/companies/aseon-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aseon-labs
+  slug: aseon-labs
+  matched_by: name-slug
 - name: Soria
   status: unknown
   source: https://www.ycombinator.com/companies/soria
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soria
+  slug: soria
+  matched_by: name-slug
 - name: Armature
   status: unknown
   source: https://www.ycombinator.com/companies/armature
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: armature
+  slug: armature
+  matched_by: name-slug
 - name: Plan0 Ai
   status: unknown
   source: https://www.ycombinator.com/companies/plan0-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plan0-ai
+  slug: plan0-ai
+  matched_by: name-slug
 - name: Zibra Labs
   status: unknown
   source: https://www.ycombinator.com/companies/zibra-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zibra-labs
+  slug: zibra-labs
+  matched_by: name-slug
 - name: Ara
   status: unknown
   source: https://www.ycombinator.com/companies/ara
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ara
+  slug: ara
+  matched_by: name-slug
 - name: Valctrl
   status: unknown
   source: https://www.ycombinator.com/companies/valctrl
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: valctrl
+  slug: valctrl
+  matched_by: name-slug
 - name: General Instinct
   status: unknown
   source: https://www.ycombinator.com/companies/general-instinct
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: general-instinct
+  slug: general-instinct
+  matched_by: name-slug
 - name: Tdaycom
   status: unknown
   source: https://www.ycombinator.com/companies/tdaycom
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tdaycom
+  slug: tdaycom
+  matched_by: name-slug
 - name: Datost
   status: unknown
   source: https://www.ycombinator.com/companies/datost
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datost
+  slug: datost
+  matched_by: name-slug
 - name: Minicor
   status: unknown
   source: https://www.ycombinator.com/companies/minicor
-  in_network: false
-  is_api_provider: false
-  suggested_slug: minicor
+  in_network: true
+  is_api_provider: true
+  slug: minicor
+  matched_by: name-slug
 - name: Degla Inc
   status: unknown
   source: https://www.ycombinator.com/companies/degla-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: degla-inc
+  slug: degla-inc
+  matched_by: name-slug
 - name: Archer
   status: unknown
   source: https://www.ycombinator.com/companies/archer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: archer
+  slug: archer
+  matched_by: name-slug
 - name: River Markets
   status: unknown
   source: https://www.ycombinator.com/companies/river-markets
-  in_network: false
-  is_api_provider: false
-  suggested_slug: river-markets
+  in_network: true
+  is_api_provider: true
+  slug: river-markets
+  matched_by: name-slug
 - name: Smol Machines
   status: unknown
   source: https://www.ycombinator.com/companies/smol-machines
-  in_network: false
-  is_api_provider: false
-  suggested_slug: smol-machines
+  in_network: true
+  is_api_provider: true
+  slug: smol-machines
+  matched_by: name-slug
 - name: Allowance
   status: unknown
   source: https://www.ycombinator.com/companies/allowance
-  in_network: false
-  is_api_provider: false
-  suggested_slug: allowance
+  in_network: true
+  is_api_provider: true
+  slug: allowance
+  matched_by: name-slug
 - name: Runharbor
   status: unknown
   source: https://www.ycombinator.com/companies/runharbor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runharbor
+  slug: runharbor
+  matched_by: name-slug
 - name: Alchemize
   status: unknown
   source: https://www.ycombinator.com/companies/alchemize
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alchemize
+  slug: alchemize
+  matched_by: name-slug
 - name: Complir
   status: unknown
   source: https://www.ycombinator.com/companies/complir
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: complir
+  slug: complir
+  matched_by: name-slug
 - name: Aice
   status: unknown
   source: https://www.ycombinator.com/companies/aice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aice
+  slug: aice
+  matched_by: name-slug
 - name: Infera
   status: unknown
   source: https://www.ycombinator.com/companies/infera
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infera
+  slug: infera
+  matched_by: name-slug
 - name: Mount
   status: unknown
   source: https://www.ycombinator.com/companies/mount
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mount
+  slug: mount
+  matched_by: name-slug
 - name: Useparrot
   status: unknown
   source: https://www.ycombinator.com/companies/useparrot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: useparrot
+  slug: useparrot
+  matched_by: name-slug
 - name: Result
   status: unknown
   source: https://www.ycombinator.com/companies/result
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: result
+  slug: result
+  matched_by: name-slug
 - name: Textsidekick
   status: unknown
   source: https://www.ycombinator.com/companies/textsidekick
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: textsidekick
+  slug: textsidekick
+  matched_by: name-slug
 - name: Prototypingio
   status: unknown
   source: https://www.ycombinator.com/companies/prototypingio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prototypingio
+  slug: prototypingio
+  matched_by: name-slug
 - name: Lumius
   status: unknown
   source: https://www.ycombinator.com/companies/lumius
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumius
+  slug: lumius
+  matched_by: name-slug
 - name: Adialante
   status: unknown
   source: https://www.ycombinator.com/companies/adialante
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adialante
+  slug: adialante
+  matched_by: name-slug
 - name: Savant
   status: unknown
   source: https://www.ycombinator.com/companies/savant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: savant
+  slug: savant
+  matched_by: name-slug
 - name: Keyframe Labs
   status: unknown
   source: https://www.ycombinator.com/companies/keyframe-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: keyframe-labs
+  in_network: true
+  is_api_provider: true
+  slug: keyframe-labs
+  matched_by: name-slug
 - name: Voquill
   status: unknown
   source: https://www.ycombinator.com/companies/voquill
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voquill
+  slug: voquill
+  matched_by: name-slug
 - name: Oddpool
   status: unknown
   source: https://www.ycombinator.com/companies/oddpool
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oddpool
+  slug: oddpool
+  matched_by: name-slug
 - name: Ontora
   status: unknown
   source: https://www.ycombinator.com/companies/ontora
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ontora
+  slug: ontora
+  matched_by: name-slug
 - name: Napkin Math
   status: unknown
   source: https://www.ycombinator.com/companies/napkin-math
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: napkin-math
+  slug: napkin-math
+  matched_by: name-slug
 - name: Gojiberry Ai
   status: unknown
   source: https://www.ycombinator.com/companies/gojiberry-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gojiberry-ai
+  in_network: true
+  is_api_provider: true
+  slug: gojiberry-ai
+  matched_by: name-slug
 - name: Lab0
   status: unknown
   source: https://www.ycombinator.com/companies/lab0
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lab0
+  slug: lab0
+  matched_by: name-slug
 - name: Bentolabs Ai
   status: unknown
   source: https://www.ycombinator.com/companies/bentolabs-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bentolabs-ai
+  slug: bentolabs-ai
+  matched_by: name-slug
 - name: Lamina Labs
   status: unknown
   source: https://www.ycombinator.com/companies/lamina-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lamina-labs
+  slug: lamina-labs
+  matched_by: name-slug
 - name: Kimpton Ai
   status: unknown
   source: https://www.ycombinator.com/companies/kimpton-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kimpton-ai
+  slug: kimpton-ai
+  matched_by: name-slug
 - name: Stablebrowse
   status: unknown
   source: https://www.ycombinator.com/companies/stablebrowse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stablebrowse
+  slug: stablebrowse
+  matched_by: name-slug
 - name: Taiga
   status: unknown
   source: https://www.ycombinator.com/companies/taiga
@@ -3099,291 +3518,339 @@ companies:
 - name: Pairio
   status: unknown
   source: https://www.ycombinator.com/companies/pairio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pairio
+  slug: pairio
+  matched_by: name-slug
 - name: Callab Ai
   status: unknown
   source: https://www.ycombinator.com/companies/callab-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: callab-ai
+  slug: callab-ai
+  matched_by: name-slug
 - name: Synphony
   status: unknown
   source: https://www.ycombinator.com/companies/synphony
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synphony
+  slug: synphony
+  matched_by: name-slug
 - name: Drippay
   status: unknown
   source: https://www.ycombinator.com/companies/drippay
-  in_network: false
-  is_api_provider: false
-  suggested_slug: drippay
+  in_network: true
+  is_api_provider: true
+  slug: drippay
+  matched_by: name-slug
 - name: Arga Labs
   status: unknown
   source: https://www.ycombinator.com/companies/arga-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arga-labs
+  slug: arga-labs
+  matched_by: name-slug
 - name: Andco
   status: unknown
   source: https://www.ycombinator.com/companies/andco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andco
+  slug: andco
+  matched_by: name-slug
 - name: Rentahuman
   status: unknown
   source: https://www.ycombinator.com/companies/rentahuman
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rentahuman
+  in_network: true
+  is_api_provider: true
+  slug: rentahuman
+  matched_by: name-slug
 - name: Instaagent
   status: unknown
   source: https://www.ycombinator.com/companies/instaagent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instaagent
+  slug: instaagent
+  matched_by: name-slug
 - name: Salesgraph
   status: unknown
   source: https://www.ycombinator.com/companies/salesgraph
-  in_network: false
-  is_api_provider: false
-  suggested_slug: salesgraph
+  in_network: true
+  is_api_provider: true
+  slug: salesgraph
+  matched_by: name-slug
 - name: Sherpa
   status: unknown
   source: https://www.ycombinator.com/companies/sherpa
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sherpa
+  slug: sherpa
+  matched_by: name-slug
 - name: Userlens
   status: unknown
   source: https://www.ycombinator.com/companies/userlens
-  in_network: false
-  is_api_provider: false
-  suggested_slug: userlens
+  in_network: true
+  is_api_provider: true
+  slug: userlens
+  matched_by: name-slug
 - name: Transload
   status: unknown
   source: https://www.ycombinator.com/companies/transload
-  in_network: false
-  is_api_provider: false
-  suggested_slug: transload
+  in_network: true
+  is_api_provider: true
+  slug: transload
+  matched_by: name-slug
 - name: Standout
   status: unknown
   source: https://www.ycombinator.com/companies/standout
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standout
+  slug: standout
+  matched_by: name-slug
 - name: Shotwellai
   status: unknown
   source: https://www.ycombinator.com/companies/shotwellai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shotwellai
+  slug: shotwellai
+  matched_by: name-slug
 - name: Madrone
   status: unknown
   source: https://www.ycombinator.com/companies/madrone
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: madrone
+  slug: madrone
+  matched_by: name-slug
 - name: Pavoot
   status: unknown
   source: https://www.ycombinator.com/companies/pavoot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pavoot
+  slug: pavoot
+  matched_by: name-slug
 - name: Qomplement
   status: unknown
   source: https://www.ycombinator.com/companies/qomplement
-  in_network: false
-  is_api_provider: false
-  suggested_slug: qomplement
+  in_network: true
+  is_api_provider: true
+  slug: qomplement
+  matched_by: name-slug
 - name: Deep Interactions
   status: unknown
   source: https://www.ycombinator.com/companies/deep-interactions
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deep-interactions
+  slug: deep-interactions
+  matched_by: name-slug
 - name: Kelai
   status: unknown
   source: https://www.ycombinator.com/companies/kelai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kelai
+  slug: kelai
+  matched_by: name-slug
 - name: Hevn Inc
   status: unknown
   source: https://www.ycombinator.com/companies/hevn-inc
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hevn-inc
+  in_network: true
+  is_api_provider: true
+  slug: hevn-inc
+  matched_by: name-slug
 - name: Wealor
   status: unknown
   source: https://www.ycombinator.com/companies/wealor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wealor
+  slug: wealor
+  matched_by: name-slug
 - name: Elyra
   status: unknown
   source: https://www.ycombinator.com/companies/elyra
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elyra
+  slug: elyra
+  matched_by: name-slug
 - name: Interfaze
   status: unknown
   source: https://www.ycombinator.com/companies/interfaze
-  in_network: false
-  is_api_provider: false
-  suggested_slug: interfaze
+  in_network: true
+  is_api_provider: true
+  slug: interfaze
+  matched_by: name-slug
 - name: Zolvo
   status: unknown
   source: https://www.ycombinator.com/companies/zolvo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zolvo
+  slug: zolvo
+  matched_by: name-slug
 - name: Juno Chat
   status: unknown
   source: https://www.ycombinator.com/companies/juno-chat
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juno-chat
+  slug: juno-chat
+  matched_by: name-slug
 - name: Kinro
   status: unknown
   source: https://www.ycombinator.com/companies/kinro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kinro
+  slug: kinro
+  matched_by: name-slug
 - name: Govguard
   status: unknown
   source: https://www.ycombinator.com/companies/govguard
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: govguard
+  slug: govguard
+  matched_by: name-slug
 - name: Superlog
   status: unknown
   source: https://www.ycombinator.com/companies/superlog
-  in_network: false
-  is_api_provider: false
-  suggested_slug: superlog
+  in_network: true
+  is_api_provider: true
+  slug: superlog
+  matched_by: name-slug
 - name: Godhands
   status: unknown
   source: https://www.ycombinator.com/companies/godhands
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: godhands
+  slug: godhands
+  matched_by: name-slug
 - name: Limrun
   status: unknown
   source: https://www.ycombinator.com/companies/limrun
-  in_network: false
-  is_api_provider: false
-  suggested_slug: limrun
+  in_network: true
+  is_api_provider: true
+  slug: limrun
+  matched_by: name-slug
 - name: Light Anchor
   status: unknown
   source: https://www.ycombinator.com/companies/light-anchor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: light-anchor
+  slug: light-anchor
+  matched_by: name-slug
 - name: Hub
   status: unknown
   source: https://www.ycombinator.com/companies/hub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hub
+  slug: hub
+  matched_by: name-slug
 - name: Tenet Industries
   status: unknown
   source: https://www.ycombinator.com/companies/tenet-industries
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tenet-industries
+  slug: tenet-industries
+  matched_by: name-slug
 - name: Atrisa
   status: unknown
   source: https://www.ycombinator.com/companies/atrisa
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atrisa
+  slug: atrisa
+  matched_by: name-slug
 - name: Trellistech
   status: unknown
   source: https://www.ycombinator.com/companies/trellistech
-  in_network: false
-  is_api_provider: false
-  suggested_slug: trellistech
+  in_network: true
+  is_api_provider: true
+  slug: trellistech
+  matched_by: name-slug
 - name: The Company Company
   status: unknown
   source: https://www.ycombinator.com/companies/the-company-company
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-company-company
+  slug: the-company-company
+  matched_by: name-slug
 - name: Dayjob
   status: unknown
   source: https://www.ycombinator.com/companies/dayjob
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dayjob
+  slug: dayjob
+  matched_by: name-slug
 - name: Inloop Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/inloop-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inloop-robotics
+  slug: inloop-robotics
+  matched_by: name-slug
 - name: Zenbu 2
   status: unknown
   source: https://www.ycombinator.com/companies/zenbu-2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zenbu-2
+  slug: zenbu-2
+  matched_by: name-slug
 - name: Andustry
   status: unknown
   source: https://www.ycombinator.com/companies/andustry
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andustry
+  slug: andustry
+  matched_by: name-slug
 - name: Nine Fives
   status: unknown
   source: https://www.ycombinator.com/companies/nine-fives
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nine-fives
+  in_network: true
+  is_api_provider: true
+  slug: nine-fives
+  matched_by: name-slug
 - name: Incandor
   status: unknown
   source: https://www.ycombinator.com/companies/incandor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: incandor
+  slug: incandor
+  matched_by: name-slug
 - name: Chert
   status: unknown
   source: https://www.ycombinator.com/companies/chert
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chert
+  slug: chert
+  matched_by: name-slug
 - name: Saffron
   status: unknown
   source: https://www.ycombinator.com/companies/saffron
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saffron
+  slug: saffron
+  matched_by: name-slug
 - name: Discovered Materials
   status: unknown
   source: https://www.ycombinator.com/companies/discovered-materials
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: discovered-materials
+  slug: discovered-materials
+  matched_by: name-slug
 - name: Lightsprint
   status: unknown
   source: https://www.ycombinator.com/companies/lightsprint
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightsprint
+  slug: lightsprint
+  matched_by: name-slug
 - name: Twolabs
   status: unknown
   source: https://www.ycombinator.com/companies/twolabs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twolabs
+  slug: twolabs
+  matched_by: name-slug
 - name: Scope
   status: unknown
   source: https://www.ycombinator.com/companies/scope
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scope
+  slug: scope
+  matched_by: name-slug
 - name: Hexa
   status: unknown
   source: https://www.ycombinator.com/companies/hexa
@@ -3394,333 +3861,388 @@ companies:
 - name: Palette 2
   status: unknown
   source: https://www.ycombinator.com/companies/palette-2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palette-2
+  slug: palette-2
+  matched_by: name-slug
 - name: Rudus
   status: unknown
   source: https://www.ycombinator.com/companies/rudus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rudus
+  slug: rudus
+  matched_by: name-slug
 - name: Replicas
   status: unknown
   source: https://www.ycombinator.com/companies/replicas
-  in_network: false
-  is_api_provider: false
-  suggested_slug: replicas
+  in_network: true
+  is_api_provider: true
+  slug: replicas
+  matched_by: name-slug
 - name: Totalis
   status: unknown
   source: https://www.ycombinator.com/companies/totalis
-  in_network: false
-  is_api_provider: false
-  suggested_slug: totalis
+  in_network: true
+  is_api_provider: true
+  slug: totalis
+  matched_by: name-slug
 - name: Withai
   status: unknown
   source: https://www.ycombinator.com/companies/withai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: withai
+  slug: withai
+  matched_by: name-slug
 - name: Osmaura
   status: unknown
   source: https://www.ycombinator.com/companies/osmaura
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: osmaura
+  slug: osmaura
+  matched_by: name-slug
 - name: Instance
   status: unknown
   source: https://www.ycombinator.com/companies/instance
-  in_network: false
-  is_api_provider: false
-  suggested_slug: instance
+  in_network: true
+  is_api_provider: true
+  slug: instance
+  matched_by: name-slug
 - name: Illume Labs
   status: unknown
   source: https://www.ycombinator.com/companies/illume-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: illume-labs
+  slug: illume-labs
+  matched_by: name-slug
 - name: Memoir
   status: unknown
   source: https://www.ycombinator.com/companies/memoir
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: memoir
+  slug: memoir
+  matched_by: name-slug
 - name: Perfectbit Inc
   status: unknown
   source: https://www.ycombinator.com/companies/perfectbit-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perfectbit-inc
+  slug: perfectbit-inc
+  matched_by: name-slug
 - name: Stage
   status: unknown
   source: https://www.ycombinator.com/companies/stage
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stage
+  slug: stage
+  matched_by: name-slug
 - name: Standard Signal
   status: unknown
   source: https://www.ycombinator.com/companies/standard-signal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-signal
+  slug: standard-signal
+  matched_by: name-slug
 - name: Primitive
   status: unknown
   source: https://www.ycombinator.com/companies/primitive
-  in_network: false
-  is_api_provider: false
-  suggested_slug: primitive
+  in_network: true
+  is_api_provider: true
+  slug: primitive
+  matched_by: name-slug
 - name: Korso
   status: unknown
   source: https://www.ycombinator.com/companies/korso
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: korso
+  slug: korso
+  matched_by: name-slug
 - name: Klarify
   status: unknown
   source: https://www.ycombinator.com/companies/klarify
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klarify
+  slug: klarify
+  matched_by: name-slug
 - name: Surtr Defense Systems
   status: unknown
   source: https://www.ycombinator.com/companies/surtr-defense-systems
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: surtr-defense-systems
+  slug: surtr-defense-systems
+  matched_by: name-slug
 - name: Hedge
   status: unknown
   source: https://www.ycombinator.com/companies/hedge
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hedge
+  slug: hedge
+  matched_by: name-slug
 - name: Trycardinal Ai
   status: unknown
   source: https://www.ycombinator.com/companies/trycardinal-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trycardinal-ai
+  slug: trycardinal-ai
+  matched_by: name-slug
 - name: Wideframe
   status: unknown
   source: https://www.ycombinator.com/companies/wideframe
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wideframe
+  slug: wideframe
+  matched_by: name-slug
 - name: Martini
   status: unknown
   source: https://www.ycombinator.com/companies/martini
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: martini
+  slug: martini
+  matched_by: name-slug
 - name: Litmus Hiring
   status: unknown
   source: https://www.ycombinator.com/companies/litmus-hiring
-  in_network: false
-  is_api_provider: false
-  suggested_slug: litmus-hiring
+  in_network: true
+  is_api_provider: true
+  slug: litmus-hiring
+  matched_by: name-slug
 - name: Condor Energy
   status: unknown
   source: https://www.ycombinator.com/companies/condor-energy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: condor-energy
+  slug: condor-energy
+  matched_by: name-slug
 - name: Remix 3
   status: unknown
   source: https://www.ycombinator.com/companies/remix-3
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: remix-3
+  slug: remix-3
+  matched_by: name-slug
 - name: Shofo
   status: unknown
   source: https://www.ycombinator.com/companies/shofo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shofo
+  slug: shofo
+  matched_by: name-slug
 - name: Wayco
   status: unknown
   source: https://www.ycombinator.com/companies/wayco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wayco
+  slug: wayco
+  matched_by: name-slug
 - name: Unifold
   status: unknown
   source: https://www.ycombinator.com/companies/unifold
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unifold
+  slug: unifold
+  matched_by: name-slug
 - name: Carrot Labs
   status: unknown
   source: https://www.ycombinator.com/companies/carrot-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carrot-labs
+  slug: carrot-labs
+  matched_by: name-slug
 - name: Dispatch
   status: unknown
   source: https://www.ycombinator.com/companies/dispatch
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dispatch
+  in_network: true
+  is_api_provider: true
+  slug: dispatch
+  matched_by: name-slug
 - name: Trybloom
   status: unknown
   source: https://www.ycombinator.com/companies/trybloom
-  in_network: false
-  is_api_provider: false
-  suggested_slug: trybloom
+  in_network: true
+  is_api_provider: true
+  slug: trybloom
+  matched_by: name-slug
 - name: Aurorin Cad
   status: unknown
   source: https://www.ycombinator.com/companies/aurorin-cad
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aurorin-cad
+  slug: aurorin-cad
+  matched_by: name-slug
 - name: Fixture
   status: unknown
   source: https://www.ycombinator.com/companies/fixture
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fixture
+  in_network: true
+  is_api_provider: true
+  slug: fixture
+  matched_by: name-slug
 - name: Daivin
   status: unknown
   source: https://www.ycombinator.com/companies/daivin
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daivin
+  slug: daivin
+  matched_by: name-slug
 - name: Brumby
   status: unknown
   source: https://www.ycombinator.com/companies/brumby
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brumby
+  slug: brumby
+  matched_by: name-slug
 - name: Origami Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/origami-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: origami-robotics
+  slug: origami-robotics
+  matched_by: name-slug
 - name: Ossus
   status: unknown
   source: https://www.ycombinator.com/companies/ossus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ossus
+  slug: ossus
+  matched_by: name-slug
 - name: Rubric Ai
   status: unknown
   source: https://www.ycombinator.com/companies/rubric-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rubric-ai
+  slug: rubric-ai
+  matched_by: name-slug
 - name: Regbase
   status: unknown
   source: https://www.ycombinator.com/companies/regbase
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: regbase
+  slug: regbase
+  matched_by: name-slug
 - name: Zymbly
   status: unknown
   source: https://www.ycombinator.com/companies/zymbly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zymbly
+  slug: zymbly
+  matched_by: name-slug
 - name: Ritivel
   status: unknown
   source: https://www.ycombinator.com/companies/ritivel
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ritivel
+  slug: ritivel
+  matched_by: name-slug
 - name: Polymorph
   status: unknown
   source: https://www.ycombinator.com/companies/polymorph
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polymorph
+  slug: polymorph
+  matched_by: name-slug
 - name: Pollinate
   status: unknown
   source: https://www.ycombinator.com/companies/pollinate
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pollinate
+  slug: pollinate
+  matched_by: name-slug
 - name: Spotpay
   status: unknown
   source: https://www.ycombinator.com/companies/spotpay
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spotpay
+  slug: spotpay
+  matched_by: name-slug
 - name: Poth Labs
   status: unknown
   source: https://www.ycombinator.com/companies/poth-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poth-labs
+  slug: poth-labs
+  matched_by: name-slug
 - name: Voygr
   status: unknown
   source: https://www.ycombinator.com/companies/voygr
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voygr
+  slug: voygr
+  matched_by: name-slug
 - name: Mochacare
   status: unknown
   source: https://www.ycombinator.com/companies/mochacare
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mochacare
+  slug: mochacare
+  matched_by: name-slug
 - name: Cova
   status: unknown
   source: https://www.ycombinator.com/companies/cova
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cova
+  slug: cova
+  matched_by: name-slug
 - name: Vela
   status: unknown
   source: https://www.ycombinator.com/companies/vela
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vela
+  slug: vela
+  matched_by: name-slug
 - name: Supafax
   status: unknown
   source: https://www.ycombinator.com/companies/supafax
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supafax
+  slug: supafax
+  matched_by: name-slug
 - name: Talking Computers
   status: unknown
   source: https://www.ycombinator.com/companies/talking-computers
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: talking-computers
+  slug: talking-computers
+  matched_by: name-slug
 - name: Control Seat
   status: unknown
   source: https://www.ycombinator.com/companies/control-seat
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: control-seat
+  slug: control-seat
+  matched_by: name-slug
 - name: Copperlane
   status: unknown
   source: https://www.ycombinator.com/companies/copperlane
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: copperlane
+  slug: copperlane
+  matched_by: name-slug
 - name: Tsenta
   status: unknown
   source: https://www.ycombinator.com/companies/tsenta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tsenta
+  slug: tsenta
+  matched_by: name-slug
 - name: Canary
   status: unknown
   source: https://www.ycombinator.com/companies/canary
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: canary
+  slug: canary
+  matched_by: name-slug
 - name: Grade
   status: unknown
   source: https://www.ycombinator.com/companies/grade
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grade
+  slug: grade
+  matched_by: name-slug
 - name: Sila
   status: unknown
   source: https://www.ycombinator.com/companies/sila
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sila
+  slug: sila
+  matched_by: name-slug
 - name: Maven
   status: unknown
   source: https://www.ycombinator.com/companies/maven
@@ -3731,33 +4253,38 @@ companies:
 - name: Moda
   status: unknown
   source: https://www.ycombinator.com/companies/moda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moda
+  slug: moda
+  matched_by: name-slug
 - name: The Token Company
   status: unknown
   source: https://www.ycombinator.com/companies/the-token-company
-  in_network: false
-  is_api_provider: false
-  suggested_slug: the-token-company
+  in_network: true
+  is_api_provider: true
+  slug: the-token-company
+  matched_by: name-slug
 - name: Beesafe Ai
   status: unknown
   source: https://www.ycombinator.com/companies/beesafe-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beesafe-ai
+  slug: beesafe-ai
+  matched_by: name-slug
 - name: Fed10
   status: unknown
   source: https://www.ycombinator.com/companies/fed10
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fed10
+  slug: fed10
+  matched_by: name-slug
 - name: Inth
   status: unknown
   source: https://www.ycombinator.com/companies/inth
-  in_network: false
-  is_api_provider: false
-  suggested_slug: inth
+  in_network: true
+  is_api_provider: true
+  slug: inth
+  matched_by: name-slug
 - name: Squid
   status: unknown
   source: https://www.ycombinator.com/companies/squid
@@ -3768,135 +4295,157 @@ companies:
 - name: Crow
   status: unknown
   source: https://www.ycombinator.com/companies/crow
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crow
+  slug: crow
+  matched_by: name-slug
 - name: Foreman
   status: unknown
   source: https://www.ycombinator.com/companies/foreman
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: foreman
+  slug: foreman
+  matched_by: name-slug
 - name: Booko
   status: unknown
   source: https://www.ycombinator.com/companies/booko
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: booko
+  slug: booko
+  matched_by: name-slug
 - name: Corelayer
   status: unknown
   source: https://www.ycombinator.com/companies/corelayer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corelayer
+  slug: corelayer
+  matched_by: name-slug
 - name: General Legal
   status: unknown
   source: https://www.ycombinator.com/companies/general-legal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: general-legal
+  slug: general-legal
+  matched_by: name-slug
 - name: Fort
   status: unknown
   source: https://www.ycombinator.com/companies/fort
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fort
+  slug: fort
+  matched_by: name-slug
 - name: Getbalance
   status: unknown
   source: https://www.ycombinator.com/companies/getbalance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getbalance
+  slug: getbalance
+  matched_by: name-slug
 - name: Ekpa
   status: unknown
   source: https://www.ycombinator.com/companies/ekpa
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ekpa
+  slug: ekpa
+  matched_by: name-slug
 - name: Chasi
   status: unknown
   source: https://www.ycombinator.com/companies/chasi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chasi
+  slug: chasi
+  matched_by: name-slug
 - name: Glue
   status: unknown
   source: https://www.ycombinator.com/companies/glue
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glue
+  slug: glue
+  matched_by: name-slug
 - name: O11
   status: unknown
   source: https://www.ycombinator.com/companies/o11
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: o11
+  slug: o11
+  matched_by: name-slug
 - name: Doomersion
   status: unknown
   source: https://www.ycombinator.com/companies/doomersion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doomersion
+  slug: doomersion
+  matched_by: name-slug
 - name: Sequence Markets
   status: unknown
   source: https://www.ycombinator.com/companies/sequence-markets
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sequence-markets
+  slug: sequence-markets
+  matched_by: name-slug
 - name: Libra Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/libra-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: libra-robotics
+  slug: libra-robotics
+  matched_by: name-slug
 - name: Ditto Biosciences
   status: unknown
   source: https://www.ycombinator.com/companies/ditto-biosciences
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ditto-biosciences
+  slug: ditto-biosciences
+  matched_by: name-slug
 - name: Servo7
   status: unknown
   source: https://www.ycombinator.com/companies/servo7
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: servo7
+  slug: servo7
+  matched_by: name-slug
 - name: Superset
   status: unknown
   source: https://www.ycombinator.com/companies/superset
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: superset
+  slug: superset
+  matched_by: name-slug
 - name: Netter
   status: unknown
   source: https://www.ycombinator.com/companies/netter
-  in_network: false
-  is_api_provider: false
-  suggested_slug: netter
+  in_network: true
+  is_api_provider: true
+  slug: netter
+  matched_by: name-slug
 - name: Voxel Energy
   status: unknown
   source: https://www.ycombinator.com/companies/voxel-energy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: voxel-energy
+  slug: voxel-energy
+  matched_by: name-slug
 - name: Polymath
   status: unknown
   source: https://www.ycombinator.com/companies/polymath
-  in_network: false
-  is_api_provider: false
-  suggested_slug: polymath
+  in_network: true
+  is_api_provider: true
+  slug: polymath
+  matched_by: name-slug
 - name: Archal
   status: unknown
   source: https://www.ycombinator.com/companies/archal
-  in_network: false
-  is_api_provider: false
-  suggested_slug: archal
+  in_network: true
+  is_api_provider: true
+  slug: archal
+  matched_by: name-slug
 - name: Bubble Lab
   status: unknown
   source: https://www.ycombinator.com/companies/bubble-lab
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bubble-lab
+  slug: bubble-lab
+  matched_by: name-slug
 - name: Pocket
   status: unknown
   source: https://www.ycombinator.com/companies/pocket
@@ -3907,1131 +4456,1319 @@ companies:
 - name: Byteport
   status: unknown
   source: https://www.ycombinator.com/companies/byteport
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: byteport
+  slug: byteport
+  matched_by: name-slug
 - name: Constellation Space
   status: unknown
   source: https://www.ycombinator.com/companies/constellation-space
-  in_network: false
-  is_api_provider: false
-  suggested_slug: constellation-space
+  in_network: true
+  is_api_provider: true
+  slug: constellation-space
+  matched_by: name-slug
 - name: Sazabi
   status: unknown
   source: https://www.ycombinator.com/companies/sazabi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sazabi
+  slug: sazabi
+  matched_by: name-slug
 - name: Mendral
   status: unknown
   source: https://www.ycombinator.com/companies/mendral
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mendral
+  slug: mendral
+  matched_by: name-slug
 - name: Axionorbital Space
   status: unknown
   source: https://www.ycombinator.com/companies/axionorbital-space
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: axionorbital-space
+  slug: axionorbital-space
+  matched_by: name-slug
 - name: Oximy
   status: unknown
   source: https://www.ycombinator.com/companies/oximy
-  in_network: false
-  is_api_provider: false
-  suggested_slug: oximy
+  in_network: true
+  is_api_provider: true
+  slug: oximy
+  matched_by: name-slug
 - name: Caretta
   status: unknown
   source: https://www.ycombinator.com/companies/caretta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: caretta
+  slug: caretta
+  matched_by: name-slug
 - name: Samora Ai
   status: unknown
   source: https://www.ycombinator.com/companies/samora-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: samora-ai
+  in_network: true
+  is_api_provider: true
+  slug: samora-ai
+  matched_by: name-slug
 - name: Human Archive
   status: unknown
   source: https://www.ycombinator.com/companies/human-archive
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-archive
+  slug: human-archive
+  matched_by: name-slug
 - name: Forum
   status: unknown
   source: https://www.ycombinator.com/companies/forum
-  in_network: false
-  is_api_provider: false
-  suggested_slug: forum
+  in_network: true
+  is_api_provider: true
+  slug: forum
+  matched_by: name-slug
 - name: Sitefire
   status: unknown
   source: https://www.ycombinator.com/companies/sitefire
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sitefire
+  in_network: true
+  is_api_provider: true
+  slug: sitefire
+  matched_by: name-slug
 - name: Robby
   status: unknown
   source: https://www.ycombinator.com/companies/robby
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: robby
+  slug: robby
+  matched_by: name-slug
 - name: Ressl Ai
   status: unknown
   source: https://www.ycombinator.com/companies/ressl-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ressl-ai
+  in_network: true
+  is_api_provider: true
+  slug: ressl-ai
+  matched_by: name-slug
 - name: Emdash
   status: unknown
   source: https://www.ycombinator.com/companies/emdash
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emdash
+  slug: emdash
+  matched_by: name-slug
 - name: Inventoryquant
   status: unknown
   source: https://www.ycombinator.com/companies/inventoryquant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inventoryquant
+  slug: inventoryquant
+  matched_by: name-slug
 - name: Congruent
   status: unknown
   source: https://www.ycombinator.com/companies/congruent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: congruent
+  slug: congruent
+  matched_by: name-slug
 - name: Usereframe
   status: unknown
   source: https://www.ycombinator.com/companies/usereframe
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: usereframe
+  slug: usereframe
+  matched_by: name-slug
 - name: Valence
   status: unknown
   source: https://www.ycombinator.com/companies/valence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: valence
+  slug: valence
+  matched_by: name-slug
 - name: 9 Mothers Corporation
   status: unknown
   source: https://www.ycombinator.com/companies/9-mothers-corporation
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 9-mothers-corporation
+  slug: 9-mothers-corporation
+  matched_by: name-slug
 - name: Approxima
   status: unknown
   source: https://www.ycombinator.com/companies/approxima
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: approxima
+  slug: approxima
+  matched_by: name-slug
 - name: Traverse
   status: unknown
   source: https://www.ycombinator.com/companies/traverse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: traverse
+  slug: traverse
+  matched_by: name-slug
 - name: Revion
   status: unknown
   source: https://www.ycombinator.com/companies/revion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: revion
+  slug: revion
+  matched_by: name-slug
 - name: Maywood
   status: unknown
   source: https://www.ycombinator.com/companies/maywood
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maywood
+  slug: maywood
+  matched_by: name-slug
 - name: Fenrock Ai
   status: unknown
   source: https://www.ycombinator.com/companies/fenrock-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fenrock-ai
+  slug: fenrock-ai
+  matched_by: name-slug
 - name: End Close
   status: unknown
   source: https://www.ycombinator.com/companies/end-close
-  in_network: false
-  is_api_provider: false
-  suggested_slug: end-close
+  in_network: true
+  is_api_provider: true
+  slug: end-close
+  matched_by: name-slug
 - name: Chamber
   status: unknown
   source: https://www.ycombinator.com/companies/chamber
-  in_network: false
-  is_api_provider: false
-  suggested_slug: chamber
+  in_network: true
+  is_api_provider: true
+  slug: chamber
+  matched_by: name-slug
 - name: Assemble
   status: unknown
   source: https://www.ycombinator.com/companies/assemble
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assemble
+  slug: assemble
+  matched_by: name-slug
 - name: Patientdeskai
   status: unknown
   source: https://www.ycombinator.com/companies/patientdeskai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patientdeskai
+  slug: patientdeskai
+  matched_by: name-slug
 - name: Visibl Semiconductors
   status: unknown
   source: https://www.ycombinator.com/companies/visibl-semiconductors
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: visibl-semiconductors
+  slug: visibl-semiconductors
+  matched_by: name-slug
 - name: Synthetic Sciences
   status: unknown
   source: https://www.ycombinator.com/companies/synthetic-sciences
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synthetic-sciences
+  slug: synthetic-sciences
+  matched_by: name-slug
 - name: Seeing Systems
   status: unknown
   source: https://www.ycombinator.com/companies/seeing-systems
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seeing-systems
+  slug: seeing-systems
+  matched_by: name-slug
 - name: Jinba
   status: unknown
   source: https://www.ycombinator.com/companies/jinba
-  in_network: false
-  is_api_provider: false
-  suggested_slug: jinba
+  in_network: true
+  is_api_provider: true
+  slug: jinba
+  matched_by: name-slug
 - name: Cardboard
   status: unknown
   source: https://www.ycombinator.com/companies/cardboard
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cardboard
+  slug: cardboard
+  matched_by: name-slug
 - name: Prana Health
   status: unknown
   source: https://www.ycombinator.com/companies/prana-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prana-health
+  slug: prana-health
+  matched_by: name-slug
 - name: Rhizome Ai
   status: unknown
   source: https://www.ycombinator.com/companies/rhizome-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rhizome-ai
+  in_network: true
+  is_api_provider: true
+  slug: rhizome-ai
+  matched_by: name-slug
 - name: Pax Historia
   status: unknown
   source: https://www.ycombinator.com/companies/pax-historia
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pax-historia
+  slug: pax-historia
+  matched_by: name-slug
 - name: Hex Security
   status: unknown
   source: https://www.ycombinator.com/companies/hex-security
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hex-security
+  slug: hex-security
+  matched_by: name-slug
 - name: Laurence
   status: unknown
   source: https://www.ycombinator.com/companies/laurence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: laurence
+  slug: laurence
+  matched_by: name-slug
 - name: Terminal Use
   status: unknown
   source: https://www.ycombinator.com/companies/terminal-use
-  in_network: false
-  is_api_provider: false
-  suggested_slug: terminal-use
+  in_network: true
+  is_api_provider: true
+  slug: terminal-use
+  matched_by: name-slug
 - name: Overshoot
   status: unknown
   source: https://www.ycombinator.com/companies/overshoot
-  in_network: false
-  is_api_provider: false
-  suggested_slug: overshoot
+  in_network: true
+  is_api_provider: true
+  slug: overshoot
+  matched_by: name-slug
 - name: Cajal Technologies
   status: unknown
   source: https://www.ycombinator.com/companies/cajal-technologies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cajal-technologies
+  slug: cajal-technologies
+  matched_by: name-slug
 - name: Proximitty
   status: unknown
   source: https://www.ycombinator.com/companies/proximitty
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proximitty
+  slug: proximitty
+  matched_by: name-slug
 - name: Instinct Xyz
   status: unknown
   source: https://www.ycombinator.com/companies/instinct-xyz
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instinct-xyz
+  slug: instinct-xyz
+  matched_by: name-slug
 - name: Stilta
   status: unknown
   source: https://www.ycombinator.com/companies/stilta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stilta
+  slug: stilta
+  matched_by: name-slug
 - name: Unisson
   status: unknown
   source: https://www.ycombinator.com/companies/unisson
-  in_network: false
-  is_api_provider: false
-  suggested_slug: unisson
+  in_network: true
+  is_api_provider: true
+  slug: unisson
+  matched_by: name-slug
 - name: Brownie
   status: unknown
   source: https://www.ycombinator.com/companies/brownie
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brownie
+  slug: brownie
+  matched_by: name-slug
 - name: Compresr
   status: unknown
   source: https://www.ycombinator.com/companies/compresr
-  in_network: false
-  is_api_provider: false
-  suggested_slug: compresr
+  in_network: true
+  is_api_provider: true
+  slug: compresr
+  matched_by: name-slug
 - name: Opalite Health
   status: unknown
   source: https://www.ycombinator.com/companies/opalite-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opalite-health
+  slug: opalite-health
+  matched_by: name-slug
 - name: Confluence Labs
   status: unknown
   source: https://www.ycombinator.com/companies/confluence-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: confluence-labs
+  slug: confluence-labs
+  matched_by: name-slug
 - name: Rapidfolio
   status: unknown
   source: https://www.ycombinator.com/companies/rapidfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rapidfolio
+  slug: rapidfolio
+  matched_by: name-slug
 - name: Mango Medical Inc
   status: unknown
   source: https://www.ycombinator.com/companies/mango-medical-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mango-medical-inc
+  slug: mango-medical-inc
+  matched_by: name-slug
 - name: Sponge
   status: unknown
   source: https://www.ycombinator.com/companies/sponge
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sponge
+  in_network: true
+  is_api_provider: true
+  slug: sponge
+  matched_by: name-slug
 - name: Terranox Ai
   status: unknown
   source: https://www.ycombinator.com/companies/terranox-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: terranox-ai
+  slug: terranox-ai
+  matched_by: name-slug
 - name: Drafted
   status: unknown
   source: https://www.ycombinator.com/companies/drafted
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drafted
+  slug: drafted
+  matched_by: name-slug
 - name: Ventura
   status: unknown
   source: https://www.ycombinator.com/companies/ventura
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ventura
+  slug: ventura
+  matched_by: name-slug
 - name: Orthogonal
   status: unknown
   source: https://www.ycombinator.com/companies/orthogonal
-  in_network: false
-  is_api_provider: false
-  suggested_slug: orthogonal
+  in_network: true
+  is_api_provider: true
+  slug: orthogonal
+  matched_by: name-slug
 - name: Perfectly
   status: unknown
   source: https://www.ycombinator.com/companies/perfectly
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perfectly
+  slug: perfectly
+  matched_by: name-slug
 - name: Fern Bot
   status: unknown
   source: https://www.ycombinator.com/companies/fern-bot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fern-bot
+  slug: fern-bot
+  matched_by: name-slug
 - name: Sparkles
   status: unknown
   source: https://www.ycombinator.com/companies/sparkles
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sparkles
+  slug: sparkles
+  matched_by: name-slug
 - name: Eigenpal
   status: unknown
   source: https://www.ycombinator.com/companies/eigenpal
-  in_network: false
-  is_api_provider: false
-  suggested_slug: eigenpal
+  in_network: true
+  is_api_provider: true
+  slug: eigenpal
+  matched_by: name-slug
 - name: Salus
   status: unknown
   source: https://www.ycombinator.com/companies/salus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salus
+  slug: salus
+  matched_by: name-slug
 - name: Moritz
   status: unknown
   source: https://www.ycombinator.com/companies/moritz
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moritz
+  slug: moritz
+  matched_by: name-slug
 - name: Ramain
   status: unknown
   source: https://www.ycombinator.com/companies/ramain
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ramain
+  slug: ramain
+  matched_by: name-slug
 - name: Milliray
   status: unknown
   source: https://www.ycombinator.com/companies/milliray
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: milliray
+  slug: milliray
+  matched_by: name-slug
 - name: Beyond Reach Labs
   status: unknown
   source: https://www.ycombinator.com/companies/beyond-reach-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beyond-reach-labs
+  slug: beyond-reach-labs
+  matched_by: name-slug
 - name: Octapulse
   status: unknown
   source: https://www.ycombinator.com/companies/octapulse
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: octapulse
+  slug: octapulse
+  matched_by: name-slug
 - name: Codewisp
   status: unknown
   source: https://www.ycombinator.com/companies/codewisp
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: codewisp
+  slug: codewisp
+  matched_by: name-slug
 - name: Ashr
   status: unknown
   source: https://www.ycombinator.com/companies/ashr
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ashr
+  slug: ashr
+  matched_by: name-slug
 - name: Aemon
   status: unknown
   source: https://www.ycombinator.com/companies/aemon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aemon
+  slug: aemon
+  matched_by: name-slug
 - name: Luel
   status: unknown
   source: https://www.ycombinator.com/companies/luel
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: luel
+  slug: luel
+  matched_by: name-slug
 - name: Scheduling Wizard
   status: unknown
   source: https://www.ycombinator.com/companies/scheduling-wizard
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: scheduling-wizard
+  slug: scheduling-wizard
+  matched_by: name-slug
 - name: Robodock
   status: unknown
   source: https://www.ycombinator.com/companies/robodock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: robodock
+  slug: robodock
+  matched_by: name-slug
 - name: Skillsync
   status: unknown
   source: https://www.ycombinator.com/companies/skillsync
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skillsync
+  slug: skillsync
+  matched_by: name-slug
 - name: Mousecat
   status: unknown
   source: https://www.ycombinator.com/companies/mousecat
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mousecat
+  slug: mousecat
+  matched_by: name-slug
 - name: Zatanna
   status: unknown
   source: https://www.ycombinator.com/companies/zatanna
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zatanna
+  slug: zatanna
+  matched_by: name-slug
 - name: Autositu
   status: unknown
   source: https://www.ycombinator.com/companies/autositu
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autositu
+  slug: autositu
+  matched_by: name-slug
 - name: Verdex
   status: unknown
   source: https://www.ycombinator.com/companies/verdex
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verdex
+  slug: verdex
+  matched_by: name-slug
 - name: Cumulus Labs
   status: unknown
   source: https://www.ycombinator.com/companies/cumulus-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cumulus-labs
+  slug: cumulus-labs
+  matched_by: name-slug
 - name: Tepali
   status: unknown
   source: https://www.ycombinator.com/companies/tepali
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tepali
+  slug: tepali
+  matched_by: name-slug
 - name: Palus Finance
   status: unknown
   source: https://www.ycombinator.com/companies/palus-finance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palus-finance
+  slug: palus-finance
+  matched_by: name-slug
 - name: 21st
   status: unknown
   source: https://www.ycombinator.com/companies/21st
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 21st
+  slug: 21st
+  matched_by: name-slug
 - name: Avoice
   status: unknown
   source: https://www.ycombinator.com/companies/avoice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avoice
+  slug: avoice
+  matched_by: name-slug
 - name: Kyten Technologies
   status: unknown
   source: https://www.ycombinator.com/companies/kyten-technologies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kyten-technologies
+  slug: kyten-technologies
+  matched_by: name-slug
 - name: Zerosettle
   status: unknown
   source: https://www.ycombinator.com/companies/zerosettle
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zerosettle
+  in_network: true
+  is_api_provider: true
+  slug: zerosettle
+  matched_by: name-slug
 - name: Devfast
   status: unknown
   source: https://www.ycombinator.com/companies/devfast
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: devfast
+  slug: devfast
+  matched_by: name-slug
 - name: Cignara
   status: unknown
   source: https://www.ycombinator.com/companies/cignara
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cignara
+  slug: cignara
+  matched_by: name-slug
 - name: Openspec
   status: unknown
   source: https://www.ycombinator.com/companies/openspec
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openspec
+  slug: openspec
+  matched_by: name-slug
 - name: Pirislabs
   status: unknown
   source: https://www.ycombinator.com/companies/pirislabs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pirislabs
+  slug: pirislabs
+  matched_by: name-slug
 - name: Celltype
   status: unknown
   source: https://www.ycombinator.com/companies/celltype
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: celltype
+  slug: celltype
+  matched_by: name-slug
 - name: Burt
   status: unknown
   source: https://www.ycombinator.com/companies/burt
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: burt
+  slug: burt
+  matched_by: name-slug
 - name: Envariant
   status: unknown
   source: https://www.ycombinator.com/companies/envariant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: envariant
+  slug: envariant
+  matched_by: name-slug
 - name: Cascade
   status: unknown
   source: https://www.ycombinator.com/companies/cascade
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cascade
+  slug: cascade
+  matched_by: name-slug
 - name: Beacon Health
   status: unknown
   source: https://www.ycombinator.com/companies/beacon-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beacon-health
+  slug: beacon-health
+  matched_by: name-slug
 - name: Strand Ai
   status: unknown
   source: https://www.ycombinator.com/companies/strand-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: strand-ai
+  in_network: true
+  is_api_provider: true
+  slug: strand-ai
+  matched_by: name-slug
 - name: Baseframe
   status: unknown
   source: https://www.ycombinator.com/companies/baseframe
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baseframe
+  slug: baseframe
+  matched_by: name-slug
 - name: Protent
   status: unknown
   source: https://www.ycombinator.com/companies/protent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: protent
+  slug: protent
+  matched_by: name-slug
 - name: Cofia
   status: unknown
   source: https://www.ycombinator.com/companies/cofia
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cofia
+  slug: cofia
+  matched_by: name-slug
 - name: Fuchsia
   status: unknown
   source: https://www.ycombinator.com/companies/fuchsia
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fuchsia
+  slug: fuchsia
+  matched_by: name-slug
 - name: Legalos
   status: unknown
   source: https://www.ycombinator.com/companies/legalos
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legalos
+  slug: legalos
+  matched_by: name-slug
 - name: Sentrial
   status: unknown
   source: https://www.ycombinator.com/companies/sentrial
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sentrial
+  in_network: true
+  is_api_provider: true
+  slug: sentrial
+  matched_by: name-slug
 - name: 10x Science
   status: unknown
   source: https://www.ycombinator.com/companies/10x-science
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 10x-science
+  slug: 10x-science
+  matched_by: name-slug
 - name: Rev1
   status: unknown
   source: https://www.ycombinator.com/companies/rev1
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rev1
+  slug: rev1
+  matched_by: name-slug
 - name: Shortkit
   status: unknown
   source: https://www.ycombinator.com/companies/shortkit
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shortkit
+  in_network: true
+  is_api_provider: true
+  slug: shortkit
+  matched_by: name-slug
 - name: Asimov
   status: unknown
   source: https://www.ycombinator.com/companies/asimov
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asimov
+  slug: asimov
+  matched_by: name-slug
 - name: Lexius
   status: unknown
   source: https://www.ycombinator.com/companies/lexius
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lexius
+  slug: lexius
+  matched_by: name-slug
 - name: Axis 2
   status: unknown
   source: https://www.ycombinator.com/companies/axis-2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: axis-2
+  slug: axis-2
+  matched_by: name-slug
 - name: Sonarly
   status: unknown
   source: https://www.ycombinator.com/companies/sonarly
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sonarly
+  in_network: true
+  is_api_provider: true
+  slug: sonarly
+  matched_by: name-slug
 - name: Docura Health
   status: unknown
   source: https://www.ycombinator.com/companies/docura-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: docura-health
+  slug: docura-health
+  matched_by: name-slug
 - name: Lance
   status: unknown
   source: https://www.ycombinator.com/companies/lance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lance
+  slug: lance
+  matched_by: name-slug
 - name: Runanywhere
   status: unknown
   source: https://www.ycombinator.com/companies/runanywhere
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runanywhere
+  slug: runanywhere
+  matched_by: name-slug
 - name: Lucent
   status: unknown
   source: https://www.ycombinator.com/companies/lucent
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lucent
+  in_network: true
+  is_api_provider: true
+  slug: lucent
+  matched_by: name-slug
 - name: Prescience Inc
   status: unknown
   source: https://www.ycombinator.com/companies/prescience-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prescience-inc
+  slug: prescience-inc
+  matched_by: name-slug
 - name: Ruma Care
   status: unknown
   source: https://www.ycombinator.com/companies/ruma-care
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ruma-care
+  slug: ruma-care
+  matched_by: name-slug
 - name: Klaus Ai
   status: unknown
   source: https://www.ycombinator.com/companies/klaus-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: klaus-ai
+  slug: klaus-ai
+  matched_by: name-slug
 - name: Kita
   status: unknown
   source: https://www.ycombinator.com/companies/kita
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kita
+  in_network: true
+  is_api_provider: true
+  slug: kita
+  matched_by: name-slug
 - name: Syntropy
   status: unknown
   source: https://www.ycombinator.com/companies/syntropy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: syntropy
+  slug: syntropy
+  matched_by: name-slug
 - name: One Robot
   status: unknown
   source: https://www.ycombinator.com/companies/one-robot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one-robot
+  slug: one-robot
+  matched_by: name-slug
 - name: Didit
   status: unknown
   source: https://www.ycombinator.com/companies/didit
-  in_network: false
-  is_api_provider: false
-  suggested_slug: didit
+  in_network: true
+  is_api_provider: true
+  slug: didit
+  matched_by: name-slug
 - name: Panta
   status: unknown
   source: https://www.ycombinator.com/companies/panta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: panta
+  slug: panta
+  matched_by: name-slug
 - name: Imperfect
   status: unknown
   source: https://www.ycombinator.com/companies/imperfect
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imperfect
+  slug: imperfect
+  matched_by: name-slug
 - name: Trustai
   status: unknown
   source: https://www.ycombinator.com/companies/trustai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trustai
+  slug: trustai
+  matched_by: name-slug
 - name: Payna
   status: unknown
   source: https://www.ycombinator.com/companies/payna
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: payna
+  slug: payna
+  matched_by: name-slug
 - name: Origin Bio
   status: unknown
   source: https://www.ycombinator.com/companies/origin-bio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: origin-bio
+  slug: origin-bio
+  matched_by: name-slug
 - name: Clara 2
   status: unknown
   source: https://www.ycombinator.com/companies/clara-2
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clara-2
+  slug: clara-2
+  matched_by: name-slug
 - name: Hlabs
   status: unknown
   source: https://www.ycombinator.com/companies/hlabs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hlabs
+  slug: hlabs
+  matched_by: name-slug
 - name: Eos Ai
   status: unknown
   source: https://www.ycombinator.com/companies/eos-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eos-ai
+  slug: eos-ai
+  matched_by: name-slug
 - name: Valgo
   status: unknown
   source: https://www.ycombinator.com/companies/valgo
-  in_network: false
-  is_api_provider: false
-  suggested_slug: valgo
+  in_network: true
+  is_api_provider: true
+  slug: valgo
+  matched_by: name-slug
 - name: Arc Prize Foundation
   status: unknown
   source: https://www.ycombinator.com/companies/arc-prize-foundation
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arc-prize-foundation
+  in_network: true
+  is_api_provider: true
+  slug: arc-prize-foundation
+  matched_by: name-slug
 - name: Corvera
   status: unknown
   source: https://www.ycombinator.com/companies/corvera
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corvera
+  slug: corvera
+  matched_by: name-slug
 - name: Fullseam
   status: unknown
   source: https://www.ycombinator.com/companies/fullseam
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fullseam
+  slug: fullseam
+  matched_by: name-slug
 - name: Linzumi
   status: unknown
   source: https://www.ycombinator.com/companies/linzumi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: linzumi
+  slug: linzumi
+  matched_by: name-slug
 - name: Advanced Metal Research
   status: unknown
   source: https://www.ycombinator.com/companies/advanced-metal-research
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: advanced-metal-research
+  slug: advanced-metal-research
+  matched_by: name-slug
 - name: Ploy
   status: unknown
   source: https://www.ycombinator.com/companies/ploy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ploy
+  slug: ploy
+  matched_by: name-slug
 - name: Catchback Cards
   status: unknown
   source: https://www.ycombinator.com/companies/catchback-cards
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: catchback-cards
+  slug: catchback-cards
+  matched_by: name-slug
 - name: Mantis
   status: unknown
   source: https://www.ycombinator.com/companies/mantis
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mantis
+  slug: mantis
+  matched_by: name-slug
 - name: Haladir
   status: unknown
   source: https://www.ycombinator.com/companies/haladir
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: haladir
+  slug: haladir
+  matched_by: name-slug
 - name: Claimglide
   status: unknown
   source: https://www.ycombinator.com/companies/claimglide
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: claimglide
+  slug: claimglide
+  matched_by: name-slug
 - name: Inviscid Ai
   status: unknown
   source: https://www.ycombinator.com/companies/inviscid-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inviscid-ai
+  slug: inviscid-ai
+  matched_by: name-slug
 - name: Coasts
   status: unknown
   source: https://www.ycombinator.com/companies/coasts
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coasts
+  slug: coasts
+  matched_by: name-slug
 - name: Zephyr Fusion
   status: unknown
   source: https://www.ycombinator.com/companies/zephyr-fusion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zephyr-fusion
+  slug: zephyr-fusion
+  matched_by: name-slug
 - name: Mayflower
   status: unknown
   source: https://www.ycombinator.com/companies/mayflower
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mayflower
+  slug: mayflower
+  matched_by: name-slug
 - name: Ndea Com
   status: unknown
   source: https://www.ycombinator.com/companies/ndea-com
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ndea-com
+  slug: ndea-com
+  matched_by: name-slug
 - name: Item
   status: unknown
   source: https://www.ycombinator.com/companies/item
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: item
+  slug: item
+  matched_by: name-slug
 - name: Crosslayer Labs
   status: unknown
   source: https://www.ycombinator.com/companies/crosslayer-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crosslayer-labs
+  slug: crosslayer-labs
+  matched_by: name-slug
 - name: Rivet Design
   status: unknown
   source: https://www.ycombinator.com/companies/rivet-design
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rivet-design
+  slug: rivet-design
+  matched_by: name-slug
 - name: Openroll
   status: unknown
   source: https://www.ycombinator.com/companies/openroll
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openroll
+  slug: openroll
+  matched_by: name-slug
 - name: Amika
   status: unknown
   source: https://www.ycombinator.com/companies/amika
-  in_network: false
-  is_api_provider: false
-  suggested_slug: amika
+  in_network: true
+  is_api_provider: true
+  slug: amika
+  matched_by: name-slug
 - name: Specific Labs
   status: unknown
   source: https://www.ycombinator.com/companies/specific-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: specific-labs
+  slug: specific-labs
+  matched_by: name-slug
 - name: Moss
   status: unknown
   source: https://www.ycombinator.com/companies/moss
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moss
+  slug: moss
+  matched_by: name-slug
 - name: Zarna
   status: unknown
   source: https://www.ycombinator.com/companies/zarna
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zarna
+  slug: zarna
+  matched_by: name-slug
 - name: Markit
   status: unknown
   source: https://www.ycombinator.com/companies/markit
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: markit
+  slug: markit
+  matched_by: name-slug
 - name: Voltair
   status: unknown
   source: https://www.ycombinator.com/companies/voltair
-  in_network: false
-  is_api_provider: false
-  suggested_slug: voltair
+  in_network: true
+  is_api_provider: true
+  slug: voltair
+  matched_by: name-slug
 - name: Clicks
   status: unknown
   source: https://www.ycombinator.com/companies/clicks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clicks
+  slug: clicks
+  matched_by: name-slug
 - name: Fastshot
   status: unknown
   source: https://www.ycombinator.com/companies/fastshot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fastshot
+  slug: fastshot
+  matched_by: name-slug
 - name: Vector Legal
   status: unknown
   source: https://www.ycombinator.com/companies/vector-legal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vector-legal
+  slug: vector-legal
+  matched_by: name-slug
 - name: Shoptiques
   status: unknown
   source: https://www.ycombinator.com/companies/shoptiques
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shoptiques
+  slug: shoptiques
+  matched_by: name-slug
 - name: Antigen
   status: unknown
   source: https://www.ycombinator.com/companies/antigen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: antigen
+  slug: antigen
+  matched_by: name-slug
 - name: Lunabill
   status: unknown
   source: https://www.ycombinator.com/companies/lunabill
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lunabill
+  slug: lunabill
+  matched_by: name-slug
 - name: Nerviom
   status: unknown
   source: https://www.ycombinator.com/companies/nerviom
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nerviom
+  slug: nerviom
+  matched_by: name-slug
 - name: Velvet
   status: unknown
   source: https://www.ycombinator.com/companies/velvet
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: velvet
+  slug: velvet
+  matched_by: name-slug
 - name: Diligencesquared Inc
   status: unknown
   source: https://www.ycombinator.com/companies/diligencesquared-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diligencesquared-inc
+  slug: diligencesquared-inc
+  matched_by: name-slug
 - name: Amera
   status: unknown
   source: https://www.ycombinator.com/companies/amera
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amera
+  slug: amera
+  matched_by: name-slug
 - name: Forge Robotics
   status: unknown
   source: https://www.ycombinator.com/companies/forge-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forge-robotics
+  slug: forge-robotics
+  matched_by: name-slug
 - name: Bluma
   status: unknown
   source: https://www.ycombinator.com/companies/bluma
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluma
+  slug: bluma
+  matched_by: name-slug
 - name: Lightberry
   status: unknown
   source: https://www.ycombinator.com/companies/lightberry
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightberry
+  slug: lightberry
+  matched_by: name-slug
 - name: The Hog
   status: unknown
   source: https://www.ycombinator.com/companies/the-hog
-  in_network: false
-  is_api_provider: false
-  suggested_slug: the-hog
+  in_network: true
+  is_api_provider: true
+  slug: the-hog
+  matched_by: name-slug
 - name: Telemetron Ai
   status: unknown
   source: https://www.ycombinator.com/companies/telemetron-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: telemetron-ai
+  in_network: true
+  is_api_provider: true
+  slug: telemetron-ai
+  matched_by: name-slug
 - name: Boom Ai
   status: unknown
   source: https://www.ycombinator.com/companies/boom-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: boom-ai
+  in_network: true
+  is_api_provider: true
+  slug: boom-ai
+  matched_by: name-slug
 - name: Freeport Markets
   status: unknown
   source: https://www.ycombinator.com/companies/freeport-markets
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freeport-markets
+  slug: freeport-markets
+  matched_by: name-slug
 - name: Miniswap
   status: unknown
   source: https://www.ycombinator.com/companies/miniswap
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: miniswap
+  slug: miniswap
+  matched_by: name-slug
 - name: Rovi Health
   status: unknown
   source: https://www.ycombinator.com/companies/rovi-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rovi-health
+  slug: rovi-health
+  matched_by: name-slug
 - name: Madethis
   status: unknown
   source: https://www.ycombinator.com/companies/madethis
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: madethis
+  slug: madethis
+  matched_by: name-slug
 - name: Generalastro
   status: unknown
   source: https://www.ycombinator.com/companies/generalastro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: generalastro
+  slug: generalastro
+  matched_by: name-slug
 - name: Jarmin
   status: unknown
   source: https://www.ycombinator.com/companies/jarmin
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jarmin
+  slug: jarmin
+  matched_by: name-slug
 - name: Exonic
   status: unknown
   source: https://www.ycombinator.com/companies/exonic
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: exonic
+  slug: exonic
+  matched_by: name-slug
 - name: Uselemma
   status: unknown
   source: https://www.ycombinator.com/companies/uselemma
-  in_network: false
-  is_api_provider: false
-  suggested_slug: uselemma
+  in_network: true
+  is_api_provider: true
+  slug: uselemma
+  matched_by: name-slug
 - name: Perseus
   status: unknown
   source: https://www.ycombinator.com/companies/perseus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perseus
+  slug: perseus
+  matched_by: name-slug
 - name: Karumi
   status: unknown
   source: https://www.ycombinator.com/companies/karumi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karumi
+  slug: karumi
+  matched_by: name-slug
 - name: Icarus
   status: unknown
   source: https://www.ycombinator.com/companies/icarus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: icarus
+  slug: icarus
+  matched_by: name-slug
 - name: Savahq
   status: unknown
   source: https://www.ycombinator.com/companies/savahq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: savahq
+  slug: savahq
+  matched_by: name-slug
 - name: Takecareos
   status: unknown
   source: https://www.ycombinator.com/companies/takecareos
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: takecareos
+  slug: takecareos
+  matched_by: name-slug
 - name: Denki
   status: unknown
   source: https://www.ycombinator.com/companies/denki
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: denki
+  slug: denki
+  matched_by: name-slug
 - name: Metorial
   status: unknown
   source: https://www.ycombinator.com/companies/metorial
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metorial
+  slug: metorial
+  matched_by: name-slug
 - name: Kalpa Labs
   status: unknown
   source: https://www.ycombinator.com/companies/kalpa-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kalpa-labs
+  in_network: true
+  is_api_provider: true
+  slug: kalpa-labs
+  matched_by: name-slug
 - name: Absurd
   status: unknown
   source: https://www.ycombinator.com/companies/absurd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: absurd
+  slug: absurd
+  matched_by: name-slug
 - name: Clad Labs
   status: unknown
   source: https://www.ycombinator.com/companies/clad-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clad-labs
+  slug: clad-labs
+  matched_by: name-slug
 - name: Automax Ai
   status: unknown
   source: https://www.ycombinator.com/companies/automax-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: automax-ai
+  slug: automax-ai
+  matched_by: name-slug
 - name: Specific
   status: unknown
   source: https://www.ycombinator.com/companies/specific
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: specific
+  slug: specific
+  matched_by: name-slug
 - name: Primer
   status: unknown
   source: https://www.ycombinator.com/companies/primer
@@ -5042,90 +5779,105 @@ companies:
 - name: Usenarrative
   status: unknown
   source: https://www.ycombinator.com/companies/usenarrative
-  in_network: false
-  is_api_provider: false
-  suggested_slug: usenarrative
+  in_network: true
+  is_api_provider: true
+  slug: usenarrative
+  matched_by: name-slug
 - name: Crunched
   status: unknown
   source: https://www.ycombinator.com/companies/crunched
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crunched
+  slug: crunched
+  matched_by: name-slug
 - name: Lua Global Inc
   status: unknown
   source: https://www.ycombinator.com/companies/lua-global-inc
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lua-global-inc
+  slug: lua-global-inc
+  matched_by: name-slug
 - name: Philon
   status: unknown
   source: https://www.ycombinator.com/companies/philon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: philon
+  slug: philon
+  matched_by: name-slug
 - name: Sourcebot
   status: unknown
   source: https://www.ycombinator.com/companies/sourcebot
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sourcebot
+  in_network: true
+  is_api_provider: true
+  slug: sourcebot
+  matched_by: name-slug
 - name: Zalos
   status: unknown
   source: https://www.ycombinator.com/companies/zalos
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zalos
+  slug: zalos
+  matched_by: name-slug
 - name: Tryprism
   status: unknown
   source: https://www.ycombinator.com/companies/tryprism
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tryprism
+  slug: tryprism
+  matched_by: name-slug
 - name: Aside
   status: unknown
   source: https://www.ycombinator.com/companies/aside
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aside
+  slug: aside
+  matched_by: name-slug
 - name: Scott Ai
   status: unknown
   source: https://www.ycombinator.com/companies/scott-ai
-  in_network: false
-  is_api_provider: false
-  suggested_slug: scott-ai
+  in_network: true
+  is_api_provider: true
+  slug: scott-ai
+  matched_by: name-slug
 - name: Everest
   status: unknown
   source: https://www.ycombinator.com/companies/everest
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everest
+  slug: everest
+  matched_by: name-slug
 - name: Expected Parrot
   status: unknown
   source: https://www.ycombinator.com/companies/expected-parrot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: expected-parrot
+  slug: expected-parrot
+  matched_by: name-slug
 - name: Imagine Ai
   status: unknown
   source: https://www.ycombinator.com/companies/imagine-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imagine-ai
+  slug: imagine-ai
+  matched_by: name-slug
 - name: Anto Biosciences
   status: unknown
   source: https://www.ycombinator.com/companies/anto-biosciences
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: anto-biosciences
+  slug: anto-biosciences
+  matched_by: name-slug
 - name: Patent Watch
   status: unknown
   source: https://www.ycombinator.com/companies/patent-watch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patent-watch
+  slug: patent-watch
+  matched_by: name-slug
 - name: S2 Dev
   status: unknown
   source: https://www.ycombinator.com/companies/s2-dev
-  in_network: false
-  is_api_provider: false
-  suggested_slug: s2-dev
+  in_network: true
+  is_api_provider: true
+  slug: s2-dev
+  matched_by: name-slug

@@ -19,6 +19,17 @@ description: >-
   News, form the connective tissue of the modern startup ecosystem.
 x-type: venture-capital
 x-category: Accelerator
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.ycombinator.com/apple-touch-icon.png
 created: '2026-07-17'
 modified: '2026-07-17'
