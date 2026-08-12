@@ -788,7 +788,7 @@ companies:
 - name: Mux
   status: unknown
   source: https://www.ycombinator.com/companies/mux
-  slug: mux
+  slug: mux-com
   in_network: true
   is_api_provider: true
   matched_by: name-slug
@@ -1035,7 +1035,7 @@ companies:
   source: https://www.ycombinator.com/companies/heroic-labs
   in_network: true
   is_api_provider: true
-  slug: heroic-labs
+  slug: heroiclabs
   matched_by: name-slug
 - name: Snapmagic
   status: unknown
