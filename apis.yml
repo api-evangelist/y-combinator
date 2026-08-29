@@ -19,6 +19,17 @@ description: >-
   News, form the connective tissue of the modern startup ecosystem.
 x-type: venture-capital
 x-category: Accelerator
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
