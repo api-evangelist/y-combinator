@@ -3,9 +3,9 @@ method: searched
 source: https://www.ycombinator.com/companies
 summary:
   portfolio_total: 839
-  in_network: 839
-  api_providers: 190
-  missing: 0
+  in_network: 819
+  api_providers: 192
+  missing: 20
   stubs_created: 0
 companies:
 - name: Doordash
@@ -117,7 +117,7 @@ companies:
   status: unknown
   source: https://www.ycombinator.com/companies/weave
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: weave
   matched_by: name-slug
 - name: Ginkgo Bioworks
@@ -167,7 +167,7 @@ companies:
   source: https://www.ycombinator.com/companies/algolia
   slug: algolia
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Truebill
   status: unknown
@@ -187,7 +187,7 @@ companies:
   status: unknown
   source: https://www.ycombinator.com/companies/plangrid
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: plangrid
   matched_by: name-slug
 - name: Bellabeat
@@ -263,10 +263,9 @@ companies:
 - name: Clipboard
   status: unknown
   source: https://www.ycombinator.com/companies/clipboard
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clipboard
-  matched_by: name-slug
+  suggested_slug: clipboard
 - name: Heap
   status: unknown
   source: https://www.ycombinator.com/companies/heap
@@ -284,10 +283,9 @@ companies:
 - name: Deel
   status: unknown
   source: https://www.ycombinator.com/companies/deel
-  slug: deel
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: deel
 - name: Clever
   status: unknown
   source: https://www.ycombinator.com/companies/clever
@@ -515,10 +513,9 @@ companies:
 - name: Newfront Insurance
   status: unknown
   source: https://www.ycombinator.com/companies/newfront-insurance
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: newfront-insurance
-  matched_by: name-slug
+  suggested_slug: newfront-insurance
 - name: North
   status: unknown
   source: https://www.ycombinator.com/companies/north
@@ -566,7 +563,7 @@ companies:
   source: https://www.ycombinator.com/companies/podium
   slug: podium
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Rappi
   status: unknown
@@ -683,10 +680,9 @@ companies:
 - name: Daily
   status: unknown
   source: https://www.ycombinator.com/companies/daily
-  in_network: true
-  is_api_provider: true
-  slug: daily
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: daily
 - name: Petcube
   status: unknown
   source: https://www.ycombinator.com/companies/petcube
@@ -788,10 +784,9 @@ companies:
 - name: Mux
   status: unknown
   source: https://www.ycombinator.com/companies/mux
-  slug: mux-com
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: mux
 - name: Human Interest
   status: unknown
   source: https://www.ycombinator.com/companies/human-interest
@@ -893,10 +888,9 @@ companies:
 - name: Plate Iq
   status: unknown
   source: https://www.ycombinator.com/companies/plate-iq
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: plate-iq
-  matched_by: name-slug
+  suggested_slug: plate-iq
 - name: Picktrace
   status: unknown
   source: https://www.ycombinator.com/companies/picktrace
@@ -907,10 +901,9 @@ companies:
 - name: Fountain
   status: unknown
   source: https://www.ycombinator.com/companies/fountain
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fountain
-  matched_by: name-slug
+  suggested_slug: fountain
 - name: Microhealth
   status: unknown
   source: https://www.ycombinator.com/companies/microhealth
@@ -977,10 +970,9 @@ companies:
 - name: Verge Genomics
   status: unknown
   source: https://www.ycombinator.com/companies/verge-genomics
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: verge-genomics
-  matched_by: name-slug
+  suggested_slug: verge-genomics
 - name: Thrive Agritech
   status: unknown
   source: https://www.ycombinator.com/companies/thrive-agritech
@@ -1033,10 +1025,9 @@ companies:
 - name: Heroic Labs
   status: unknown
   source: https://www.ycombinator.com/companies/heroic-labs
-  in_network: true
-  is_api_provider: true
-  slug: heroiclabs
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: heroic-labs
 - name: Snapmagic
   status: unknown
   source: https://www.ycombinator.com/companies/snapmagic
@@ -1131,10 +1122,9 @@ companies:
 - name: Replika
   status: unknown
   source: https://www.ycombinator.com/companies/replika
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: replika
-  matched_by: name-slug
+  suggested_slug: replika
 - name: Tara Ai
   status: unknown
   source: https://www.ycombinator.com/companies/tara-ai
@@ -1390,10 +1380,9 @@ companies:
 - name: Helion Energy
   status: unknown
   source: https://www.ycombinator.com/companies/helion-energy
-  slug: helion-energy
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: helion-energy
 - name: Hackerrank
   status: unknown
   source: https://www.ycombinator.com/companies/hackerrank
@@ -1754,10 +1743,9 @@ companies:
 - name: Estimote Inc
   status: unknown
   source: https://www.ycombinator.com/companies/estimote-inc
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: estimote-inc
-  matched_by: name-slug
+  suggested_slug: estimote-inc
 - name: Easypost
   status: unknown
   source: https://www.ycombinator.com/companies/easypost
@@ -1796,10 +1784,9 @@ companies:
 - name: Goldbelly
   status: unknown
   source: https://www.ycombinator.com/companies/goldbelly
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: goldbelly
-  matched_by: name-slug
+  suggested_slug: goldbelly
 - name: Wevorce
   status: unknown
   source: https://www.ycombinator.com/companies/wevorce
@@ -2048,10 +2035,9 @@ companies:
 - name: Screenleap Inc
   status: unknown
   source: https://www.ycombinator.com/companies/screenleap-inc
-  in_network: true
-  is_api_provider: true
-  slug: screenleap-inc
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: screenleap-inc
 - name: Buxfer
   status: unknown
   source: https://www.ycombinator.com/companies/buxfer
@@ -2384,10 +2370,9 @@ companies:
 - name: Almanac
   status: unknown
   source: https://www.ycombinator.com/companies/almanac
-  slug: almanac
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: almanac
 - name: Greypoint Industries
   status: unknown
   source: https://www.ycombinator.com/companies/greypoint-industries
@@ -3182,10 +3167,9 @@ companies:
 - name: Shepherd 3
   status: unknown
   source: https://www.ycombinator.com/companies/shepherd-3
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: shepherd-3
-  matched_by: name-slug
+  suggested_slug: shepherd-3
 - name: Ardent
   status: unknown
   source: https://www.ycombinator.com/companies/ardent
@@ -3624,7 +3608,7 @@ companies:
   status: unknown
   source: https://www.ycombinator.com/companies/pavoot
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: pavoot
   matched_by: name-slug
 - name: Qomplement
@@ -3735,10 +3719,9 @@ companies:
 - name: Hub
   status: unknown
   source: https://www.ycombinator.com/companies/hub
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hub
-  matched_by: name-slug
+  suggested_slug: hub
 - name: Tenet Industries
   status: unknown
   source: https://www.ycombinator.com/companies/tenet-industries
@@ -3854,10 +3837,9 @@ companies:
 - name: Hexa
   status: unknown
   source: https://www.ycombinator.com/companies/hexa
-  slug: hexa
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: hexa
 - name: Palette 2
   status: unknown
   source: https://www.ycombinator.com/companies/palette-2
@@ -3897,7 +3879,7 @@ companies:
   status: unknown
   source: https://www.ycombinator.com/companies/osmaura
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: osmaura
   matched_by: name-slug
 - name: Instance
@@ -4163,7 +4145,7 @@ companies:
   status: unknown
   source: https://www.ycombinator.com/companies/voygr
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: voygr
   matched_by: name-slug
 - name: Mochacare
@@ -4239,10 +4221,9 @@ companies:
 - name: Sila
   status: unknown
   source: https://www.ycombinator.com/companies/sila
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sila
-  matched_by: name-slug
+  suggested_slug: sila
 - name: Maven
   status: unknown
   source: https://www.ycombinator.com/companies/maven
@@ -5443,10 +5424,9 @@ companies:
 - name: Ndea Com
   status: unknown
   source: https://www.ycombinator.com/companies/ndea-com
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ndea-com
-  matched_by: name-slug
+  suggested_slug: ndea-com
 - name: Item
   status: unknown
   source: https://www.ycombinator.com/companies/item
@@ -5696,7 +5676,7 @@ companies:
   status: unknown
   source: https://www.ycombinator.com/companies/karumi
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: karumi
   matched_by: name-slug
 - name: Icarus

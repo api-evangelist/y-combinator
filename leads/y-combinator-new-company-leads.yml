@@ -1,4 +1,144 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: y-combinator
-leads: []
+leads:
+- name: Clipboard
+  url: ''
+  suggested_slug: clipboard
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/clipboard
+  stub_created: false
+- name: Deel
+  url: ''
+  suggested_slug: deel
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/deel
+  stub_created: false
+- name: Newfront Insurance
+  url: ''
+  suggested_slug: newfront-insurance
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/newfront-insurance
+  stub_created: false
+- name: Daily
+  url: ''
+  suggested_slug: daily
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/daily
+  stub_created: false
+- name: Mux
+  url: ''
+  suggested_slug: mux
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/mux
+  stub_created: false
+- name: Plate Iq
+  url: ''
+  suggested_slug: plate-iq
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/plate-iq
+  stub_created: false
+- name: Fountain
+  url: ''
+  suggested_slug: fountain
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/fountain
+  stub_created: false
+- name: Verge Genomics
+  url: ''
+  suggested_slug: verge-genomics
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/verge-genomics
+  stub_created: false
+- name: Heroic Labs
+  url: ''
+  suggested_slug: heroic-labs
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/heroic-labs
+  stub_created: false
+- name: Replika
+  url: ''
+  suggested_slug: replika
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/replika
+  stub_created: false
+- name: Helion Energy
+  url: ''
+  suggested_slug: helion-energy
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/helion-energy
+  stub_created: false
+- name: Estimote Inc
+  url: ''
+  suggested_slug: estimote-inc
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/estimote-inc
+  stub_created: false
+- name: Goldbelly
+  url: ''
+  suggested_slug: goldbelly
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/goldbelly
+  stub_created: false
+- name: Screenleap Inc
+  url: ''
+  suggested_slug: screenleap-inc
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/screenleap-inc
+  stub_created: false
+- name: Almanac
+  url: ''
+  suggested_slug: almanac
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/almanac
+  stub_created: false
+- name: Shepherd 3
+  url: ''
+  suggested_slug: shepherd-3
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/shepherd-3
+  stub_created: false
+- name: Hub
+  url: ''
+  suggested_slug: hub
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/hub
+  stub_created: false
+- name: Hexa
+  url: ''
+  suggested_slug: hexa
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/hexa
+  stub_created: false
+- name: Sila
+  url: ''
+  suggested_slug: sila
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/sila
+  stub_created: false
+- name: Ndea Com
+  url: ''
+  suggested_slug: ndea-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/ndea-com
+  stub_created: false
