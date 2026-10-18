@@ -3,9 +3,9 @@ method: searched
 source: https://www.ycombinator.com/companies
 summary:
   portfolio_total: 839
-  in_network: 794
+  in_network: 793
   api_providers: 189
-  missing: 45
+  missing: 46
   stubs_created: 0
 companies:
 - name: Doordash
@@ -852,8 +852,8 @@ companies:
   is_api_provider: false
   url: https://www.zeptonow.com/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: zepto
   suggested_slug: zeptonow-com
+  x-name-collision: zepto
 - name: Focal Systems
   status: unknown
   source: https://www.ycombinator.com/companies/focal-systems
@@ -906,8 +906,8 @@ companies:
   is_api_provider: false
   url: http://www.bymason.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: mason
   suggested_slug: bymason-com
+  x-name-collision: mason
 - name: Magicbus
   status: unknown
   source: https://www.ycombinator.com/companies/magicbus
@@ -1343,8 +1343,8 @@ companies:
   is_api_provider: false
   url: https://asm.co/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: assembly
   suggested_slug: asm-co
+  x-name-collision: assembly
 - name: Gemnote
   status: unknown
   source: https://www.ycombinator.com/companies/gemnote
@@ -1414,7 +1414,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: shasqi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.shasqi.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mashgin
   status: unknown
   source: https://www.ycombinator.com/companies/mashgin
@@ -1466,8 +1468,8 @@ companies:
   is_api_provider: false
   url: http://justflip.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: flip
   suggested_slug: justflip-com
+  x-name-collision: flip
 - name: X Zell
   status: unknown
   source: https://www.ycombinator.com/companies/x-zell
@@ -1511,8 +1513,8 @@ companies:
   is_api_provider: false
   url: https://getmeadow.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: meadow
   suggested_slug: getmeadow-com
+  x-name-collision: meadow
 - name: Level Frames
   status: unknown
   source: https://www.ycombinator.com/companies/level-frames
@@ -1565,8 +1567,8 @@ companies:
   is_api_provider: false
   url: https://cleanly.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: cleanly
   suggested_slug: cleanly-com
+  x-name-collision: cleanly
 - name: Resolve
   status: unknown
   source: https://www.ycombinator.com/companies/resolve
@@ -1574,8 +1576,8 @@ companies:
   is_api_provider: false
   url: https://www.resolvebim.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: resolve
   suggested_slug: resolvebim-com
+  x-name-collision: resolve
 - name: Makrwatch
   status: unknown
   source: https://www.ycombinator.com/companies/makrwatch
@@ -1592,8 +1594,8 @@ companies:
   is_api_provider: false
   url: http://teamnoteapp.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: teamnote
   suggested_slug: teamnoteapp-com
+  x-name-collision: teamnote
 - name: Tempo
   status: unknown
   source: https://www.ycombinator.com/companies/tempo
@@ -1880,8 +1882,8 @@ companies:
   is_api_provider: false
   url: http://www.alchemynano.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: alchemy
   suggested_slug: alchemynano-com
+  x-name-collision: alchemy
 - name: Mtailor
   status: unknown
   source: https://www.ycombinator.com/companies/mtailor
@@ -1952,8 +1954,8 @@ companies:
   is_api_provider: false
   url: http://backpackbang.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: backpack
   suggested_slug: backpackbang-com
+  x-name-collision: backpack
 - name: Immunity Project
   status: unknown
   source: https://www.ycombinator.com/companies/immunity-project
@@ -2015,8 +2017,8 @@ companies:
   is_api_provider: false
   url: http://zinc.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: zinc
   suggested_slug: zinc-com
+  x-name-collision: zinc
 - name: Zidisha
   status: unknown
   source: https://www.ycombinator.com/companies/zidisha
@@ -2357,8 +2359,8 @@ companies:
   is_api_provider: false
   url: https://goradar.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: radar
   suggested_slug: goradar-com
+  x-name-collision: radar
 - name: Lollipuff
   status: unknown
   source: https://www.ycombinator.com/companies/lollipuff
@@ -2689,7 +2691,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: coasty
-  matched_by: name-slug
+  matched_by: domain
+  url: https://coasty.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hardware Intelligence
   status: unknown
   source: https://www.ycombinator.com/companies/hardware-intelligence
@@ -2750,7 +2754,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: amulet
-  matched_by: name-slug
+  matched_by: domain
+  url: https://amulet.so
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Subvysion
   status: unknown
   source: https://www.ycombinator.com/companies/subvysion
@@ -2775,7 +2781,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: justinian
-  matched_by: name-slug
+  matched_by: domain
+  url: https://justinianai.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Florin
   status: unknown
   source: https://www.ycombinator.com/companies/florin
@@ -2801,8 +2809,8 @@ companies:
   is_api_provider: false
   url: https://hopaero.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: hop-aero
   suggested_slug: hopaero-com
+  x-name-collision: hop-aero
 - name: Openrelay
   status: unknown
   source: https://www.ycombinator.com/companies/openrelay
@@ -2855,8 +2863,8 @@ companies:
   is_api_provider: false
   url: https://axelrodlabs.com/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: axelrod
   suggested_slug: axelrodlabs-com
+  x-name-collision: axelrod
 - name: Levocred Ai
   status: unknown
   source: https://www.ycombinator.com/companies/levocred-ai
@@ -2952,8 +2960,8 @@ companies:
   is_api_provider: false
   url: https://denta.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: denta
   suggested_slug: denta-com
+  x-name-collision: denta
 - name: Isengard Industries Inc
   status: unknown
   source: https://www.ycombinator.com/companies/isengard-industries-inc
@@ -3147,8 +3155,8 @@ companies:
   is_api_provider: false
   url: https://www.usedefinite.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: definite
   suggested_slug: usedefinite-com
+  x-name-collision: definite
 - name: Alkera Ai
   status: unknown
   source: https://www.ycombinator.com/companies/alkera-ai
@@ -3210,6 +3218,7 @@ companies:
   is_api_provider: false
   slug: truffle
   matched_by: name-slug
+  x-url-candidate: https://www.truffle.com/
 - name: Alloovium
   status: unknown
   source: https://www.ycombinator.com/companies/alloovium
@@ -3244,8 +3253,8 @@ companies:
   is_api_provider: false
   url: https://www.guildai.co
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: guild
   suggested_slug: guildai-co
+  x-name-collision: guild
 - name: Floracene
   status: unknown
   source: https://www.ycombinator.com/companies/floracene
@@ -3270,7 +3279,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: instaplay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.instaplay.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Verdant
   status: unknown
   source: https://www.ycombinator.com/companies/verdant
@@ -3314,6 +3325,7 @@ companies:
   is_api_provider: true
   slug: understudy-labs
   matched_by: name-slug
+  x-url-candidate: https://unders.substack.com/
 - name: Rote
   status: unknown
   source: https://www.ycombinator.com/companies/rote
@@ -3391,6 +3403,7 @@ companies:
   is_api_provider: true
   slug: notyfi
   matched_by: name-slug
+  x-url-candidate: https://www.notyfi.ai/
 - name: Donkey
   status: unknown
   source: https://www.ycombinator.com/companies/donkey
@@ -3406,7 +3419,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: opentrade
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.opentrade.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hoplite
   status: unknown
   source: https://www.ycombinator.com/companies/hoplite
@@ -3477,8 +3492,8 @@ companies:
   is_api_provider: false
   url: https://maxxwell.dev
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: rindler
   suggested_slug: maxxwell-dev
+  x-name-collision: rindler
 - name: Huscarl
   status: unknown
   source: https://www.ycombinator.com/companies/huscarl
@@ -3582,7 +3597,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: insforge
-  matched_by: name-slug
+  matched_by: domain
+  url: https://insforge.dev
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Reasonblocks
   status: unknown
   source: https://www.ycombinator.com/companies/reasonblocks
@@ -3599,8 +3616,8 @@ companies:
   is_api_provider: false
   url: https://getmodern.ai
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: modern
   suggested_slug: getmodern-ai
+  x-name-collision: modern
 - name: Panacea
   status: unknown
   source: https://www.ycombinator.com/companies/panacea
@@ -3652,7 +3669,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gigacatalyst
-  matched_by: name-slug
+  matched_by: domain
+  url: https://gigacatalyst.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Arlo Industries
   status: unknown
   source: https://www.ycombinator.com/companies/arlo-industries
@@ -4220,6 +4239,7 @@ companies:
   is_api_provider: false
   slug: archer
   matched_by: name-slug
+  x-url-candidate: https://archer.com
 - name: River Markets
   status: unknown
   source: https://www.ycombinator.com/companies/river-markets
@@ -4451,7 +4471,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kimpton-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kimpton.ai/home
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Stablebrowse
   status: unknown
   source: https://www.ycombinator.com/companies/stablebrowse
@@ -4468,8 +4490,8 @@ companies:
   is_api_provider: false
   url: https://taigabilling.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: taiga
   suggested_slug: taigabilling-com
+  x-name-collision: taiga
 - name: Pairio
   status: unknown
   source: https://www.ycombinator.com/companies/pairio
@@ -4504,6 +4526,7 @@ companies:
   is_api_provider: true
   slug: drippay
   matched_by: name-slug
+  x-url-candidate: https://drippay.io
 - name: Arga Labs
   status: unknown
   source: https://www.ycombinator.com/companies/arga-labs
@@ -4554,8 +4577,8 @@ companies:
   is_api_provider: false
   url: https://www.withsherpa.ai/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: sherpa
   suggested_slug: withsherpa-ai
+  x-name-collision: sherpa
 - name: Userlens
   status: unknown
   source: https://www.ycombinator.com/companies/userlens
@@ -4837,7 +4860,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: incandor
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.incandor.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Chert
   status: unknown
   source: https://www.ycombinator.com/companies/chert
@@ -4890,8 +4915,8 @@ companies:
   is_api_provider: false
   url: https://tryscope.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: scope
   suggested_slug: tryscope-com
+  x-name-collision: scope
 - name: Hexa
   status: unknown
   source: https://www.ycombinator.com/companies/hexa
@@ -4907,8 +4932,8 @@ companies:
   is_api_provider: false
   url: https://palettelabs.com/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: palette-2
   suggested_slug: palettelabs-com
+  x-name-collision: palette-2
 - name: Rudus
   status: unknown
   source: https://www.ycombinator.com/companies/rudus
@@ -4925,8 +4950,8 @@ companies:
   is_api_provider: false
   url: https://replicas.dev
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: replicas
   suggested_slug: replicas-dev
+  x-name-collision: replicas
 - name: Totalis
   status: unknown
   source: https://www.ycombinator.com/companies/totalis
@@ -4943,20 +4968,25 @@ companies:
   is_api_provider: false
   slug: withai
   matched_by: name-slug
+  x-url-candidate: https://withai.ai
 - name: Osmaura
   status: unknown
   source: https://www.ycombinator.com/companies/osmaura
   in_network: true
   is_api_provider: true
   slug: osmaura
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.osmaura.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Instance
   status: unknown
   source: https://www.ycombinator.com/companies/instance
   in_network: true
   is_api_provider: true
   slug: instance
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.instancelabs.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Illume Labs
   status: unknown
   source: https://www.ycombinator.com/companies/illume-labs
@@ -4991,8 +5021,8 @@ companies:
   is_api_provider: false
   url: https://www.tryluke.dev/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: stage
   suggested_slug: tryluke-dev
+  x-name-collision: stage
 - name: Standard Signal
   status: unknown
   source: https://www.ycombinator.com/companies/standard-signal
@@ -5045,8 +5075,8 @@ companies:
   is_api_provider: false
   url: https://www.hedgespecialty.com/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: hedge
   suggested_slug: hedgespecialty-com
+  x-name-collision: hedge
 - name: Trycardinal Ai
   status: unknown
   source: https://www.ycombinator.com/companies/trycardinal-ai
@@ -5213,7 +5243,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: rubric-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rubriclabs.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Regbase
   status: unknown
   source: https://www.ycombinator.com/companies/regbase
@@ -5254,7 +5286,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pollinate
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pollinate.global/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Spotpay
   status: unknown
   source: https://www.ycombinator.com/companies/spotpay
@@ -5315,7 +5349,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: supafax
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.supafax.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Talking Computers
   status: unknown
   source: https://www.ycombinator.com/companies/talking-computers
@@ -5385,8 +5421,8 @@ companies:
   is_api_provider: false
   url: https://trymaven.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: maven
   suggested_slug: trymaven-com
+  x-name-collision: maven
 - name: Moda
   status: unknown
   source: https://www.ycombinator.com/companies/moda
@@ -5439,8 +5475,8 @@ companies:
   is_api_provider: false
   url: https://squid.energy
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: squid
   suggested_slug: squid-energy
+  x-name-collision: squid
 - name: Crow
   status: unknown
   source: https://www.ycombinator.com/companies/crow
@@ -5526,7 +5562,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: glue
-  matched_by: name-slug
+  matched_by: domain
+  url: https://glue.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: O11
   status: unknown
   source: https://www.ycombinator.com/companies/o11
@@ -5615,8 +5653,8 @@ companies:
   is_api_provider: false
   url: https://polymathlabs.ai/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: polymath
   suggested_slug: polymathlabs-ai
+  x-name-collision: polymath
 - name: Archal
   status: unknown
   source: https://www.ycombinator.com/companies/archal
@@ -5642,8 +5680,8 @@ companies:
   is_api_provider: false
   url: https://heypocket.com/now
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: pocket
   suggested_slug: heypocket-com
+  x-name-collision: pocket
 - name: Byteport
   status: unknown
   source: https://www.ycombinator.com/companies/byteport
@@ -5804,8 +5842,8 @@ companies:
   is_api_provider: false
   url: https://valence.trade
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: valence
   suggested_slug: valence-trade
+  x-name-collision: valence
 - name: 9 Mothers Corporation
   status: unknown
   source: https://www.ycombinator.com/companies/9-mothers-corporation
@@ -5939,8 +5977,8 @@ companies:
   is_api_provider: false
   url: https://cardboard.ai
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: cardboard
   suggested_slug: cardboard-ai
+  x-name-collision: cardboard
 - name: Prana Health
   status: unknown
   source: https://www.ycombinator.com/companies/prana-health
@@ -5948,8 +5986,8 @@ companies:
   is_api_provider: false
   url: https://pranadoc.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: prana-health
   suggested_slug: pranadoc-com
+  x-name-collision: prana-health
 - name: Rhizome Ai
   status: unknown
   source: https://www.ycombinator.com/companies/rhizome-ai
@@ -6467,7 +6505,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cascade
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cascade.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Beacon Health
   status: unknown
   source: https://www.ycombinator.com/companies/beacon-health
@@ -6501,7 +6541,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: protent
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.protent.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cofia
   status: unknown
   source: https://www.ycombinator.com/companies/cofia
@@ -6572,8 +6614,8 @@ companies:
   is_api_provider: false
   url: https://tryasimov.ai/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: asimov
   suggested_slug: tryasimov-ai
+  x-name-collision: asimov
 - name: Lexius
   status: unknown
   source: https://www.ycombinator.com/companies/lexius
@@ -6590,15 +6632,17 @@ companies:
   is_api_provider: false
   url: https://axisanalysis.com
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: axis-2
   suggested_slug: axisanalysis-com
+  x-name-collision: axis-2
 - name: Sonarly
   status: unknown
   source: https://www.ycombinator.com/companies/sonarly
   in_network: true
   is_api_provider: true
   slug: sonarly
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sonarly.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Docura Health
   status: unknown
   source: https://www.ycombinator.com/companies/docura-health
@@ -6675,7 +6719,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: syntropy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://syntropy.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: One Robot
   status: unknown
   source: https://www.ycombinator.com/companies/one-robot
@@ -6719,6 +6765,7 @@ companies:
   is_api_provider: false
   slug: trustai
   matched_by: name-slug
+  x-url-candidate: https://trustai.ai
 - name: Payna
   status: unknown
   source: https://www.ycombinator.com/companies/payna
@@ -6869,7 +6916,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: inviscid-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://inviscidai.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Coasts
   status: unknown
   source: https://www.ycombinator.com/companies/coasts
@@ -6931,8 +6980,8 @@ companies:
   is_api_provider: false
   url: https://rivet.design/
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: rivet-design
   suggested_slug: rivet-design
+  x-name-collision: rivet-design
 - name: Openroll
   status: unknown
   source: https://www.ycombinator.com/companies/openroll
@@ -6999,10 +7048,12 @@ companies:
 - name: Clicks
   status: unknown
   source: https://www.ycombinator.com/companies/clicks
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clicks
-  matched_by: name-slug
+  url: https://clickshealth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
+  x-name-collision: clicks
+  suggested_slug: clickshealth-com
 - name: Fastshot
   status: unknown
   source: https://www.ycombinator.com/companies/fastshot
@@ -7054,7 +7105,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: nerviom
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nerviom.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Velvet
   status: unknown
   source: https://www.ycombinator.com/companies/velvet
@@ -7124,7 +7177,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: telemetron-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.telemetron.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Boom Ai
   status: unknown
   source: https://www.ycombinator.com/companies/boom-ai
@@ -7248,7 +7303,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: takecareos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://takecareos.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Denki
   status: unknown
   source: https://www.ycombinator.com/companies/denki
@@ -7292,8 +7349,8 @@ companies:
   is_api_provider: false
   url: https://useclad.ai
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: clad-labs
   suggested_slug: useclad-ai
+  x-name-collision: clad-labs
 - name: Automax Ai
   status: unknown
   source: https://www.ycombinator.com/companies/automax-ai
@@ -7318,7 +7375,9 @@ companies:
   slug: primer
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://primer.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Usenarrative
   status: unknown
   source: https://www.ycombinator.com/companies/usenarrative
@@ -7326,8 +7385,8 @@ companies:
   is_api_provider: false
   url: http://www.usenarrative.ai
   x-url-source: yc-oss dataset (yc-oss.github.io/api)
-  x-name-collision: usenarrative
   suggested_slug: usenarrative-ai
+  x-name-collision: usenarrative
 - name: Crunched
   status: unknown
   source: https://www.ycombinator.com/companies/crunched
@@ -7406,7 +7465,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: everest
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.everestagi.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Expected Parrot
   status: unknown
   source: https://www.ycombinator.com/companies/expected-parrot

@@ -303,6 +303,13 @@ leads:
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/rivet-design
   stub_created: false
+- name: Clicks
+  url: https://clickshealth.com/
+  suggested_slug: clickshealth-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/clicks
+  stub_created: false
 - name: Clad Labs
   url: https://useclad.ai
   suggested_slug: useclad-ai
