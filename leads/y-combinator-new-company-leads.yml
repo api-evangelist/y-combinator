@@ -2,110 +2,166 @@ generated: '2026-10-18'
 method: derived
 source_vc: y-combinator
 leads:
-- name: Clipboard
-  url: ''
-  suggested_slug: clipboard
+- name: Zepto
+  url: https://www.zeptonow.com/
+  suggested_slug: zeptonow-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/clipboard
+  source: https://www.ycombinator.com/companies/zepto
   stub_created: false
-- name: Deel
-  url: ''
-  suggested_slug: deel
+- name: Mason
+  url: http://www.bymason.com
+  suggested_slug: bymason-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/deel
-  stub_created: false
-- name: Newfront Insurance
-  url: ''
-  suggested_slug: newfront-insurance
-  sector: ''
-  source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/newfront-insurance
-  stub_created: false
-- name: Daily
-  url: ''
-  suggested_slug: daily
-  sector: ''
-  source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/daily
-  stub_created: false
-- name: Mux
-  url: ''
-  suggested_slug: mux
-  sector: ''
-  source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/mux
+  source: https://www.ycombinator.com/companies/mason
   stub_created: false
 - name: Plate Iq
-  url: ''
+  url: https://plateiq.com/
   suggested_slug: plate-iq
   sector: ''
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/plate-iq
   stub_created: false
-- name: Fountain
-  url: ''
-  suggested_slug: fountain
-  sector: ''
-  source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/fountain
-  stub_created: false
 - name: Verge Genomics
-  url: ''
+  url: http://vergegenomics.com
   suggested_slug: verge-genomics
   sector: ''
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/verge-genomics
   stub_created: false
-- name: Heroic Labs
-  url: ''
-  suggested_slug: heroic-labs
+- name: Assembly
+  url: https://asm.co/
+  suggested_slug: asm-co
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/heroic-labs
+  source: https://www.ycombinator.com/companies/assembly
   stub_created: false
 - name: Replika
-  url: ''
+  url: https://replika.ai/
   suggested_slug: replika
   sector: ''
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/replika
   stub_created: false
-- name: Helion Energy
-  url: ''
-  suggested_slug: helion-energy
+- name: Flip
+  url: http://justflip.com
+  suggested_slug: justflip-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/helion-energy
+  source: https://www.ycombinator.com/companies/flip
   stub_created: false
-- name: Estimote Inc
-  url: ''
-  suggested_slug: estimote-inc
+- name: Meadow
+  url: https://getmeadow.com
+  suggested_slug: getmeadow-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/estimote-inc
+  source: https://www.ycombinator.com/companies/meadow
   stub_created: false
-- name: Goldbelly
-  url: ''
-  suggested_slug: goldbelly
+- name: Cleanly
+  url: https://cleanly.com
+  suggested_slug: cleanly-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/goldbelly
+  source: https://www.ycombinator.com/companies/cleanly
   stub_created: false
-- name: Screenleap Inc
-  url: ''
-  suggested_slug: screenleap-inc
+- name: Resolve
+  url: https://www.resolvebim.com
+  suggested_slug: resolvebim-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/screenleap-inc
+  source: https://www.ycombinator.com/companies/resolve
+  stub_created: false
+- name: Teamnote
+  url: http://teamnoteapp.com
+  suggested_slug: teamnoteapp-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/teamnote
+  stub_created: false
+- name: Alchemy
+  url: http://www.alchemynano.com
+  suggested_slug: alchemynano-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/alchemy
+  stub_created: false
+- name: Backpack
+  url: http://backpackbang.com
+  suggested_slug: backpackbang-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/backpack
+  stub_created: false
+- name: Zinc
+  url: http://zinc.com
+  suggested_slug: zinc-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/zinc
+  stub_created: false
+- name: Radar
+  url: https://goradar.com
+  suggested_slug: goradar-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/radar
+  stub_created: false
+- name: Hop Aero
+  url: https://hopaero.com
+  suggested_slug: hopaero-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/hop-aero
+  stub_created: false
+- name: Axelrod
+  url: https://axelrodlabs.com/
+  suggested_slug: axelrodlabs-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/axelrod
+  stub_created: false
+- name: Denta
+  url: https://denta.com
+  suggested_slug: denta-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/denta
   stub_created: false
 - name: Almanac
-  url: ''
+  url: https://usealmanac.com
   suggested_slug: almanac
   sector: ''
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/almanac
+  stub_created: false
+- name: Definite
+  url: https://www.usedefinite.com
+  suggested_slug: usedefinite-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/definite
+  stub_created: false
+- name: Guild
+  url: https://www.guildai.co
+  suggested_slug: guildai-co
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/guild
+  stub_created: false
+- name: Rindler
+  url: https://maxxwell.dev
+  suggested_slug: maxxwell-dev
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/rindler
+  stub_created: false
+- name: Modern
+  url: https://getmodern.ai
+  suggested_slug: getmodern-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/modern
   stub_created: false
 - name: Shepherd 3
   url: ''
@@ -114,31 +170,150 @@ leads:
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/shepherd-3
   stub_created: false
-- name: Hub
-  url: ''
-  suggested_slug: hub
+- name: Taiga
+  url: https://taigabilling.com
+  suggested_slug: taigabilling-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/hub
+  source: https://www.ycombinator.com/companies/taiga
+  stub_created: false
+- name: Sherpa
+  url: https://www.withsherpa.ai/
+  suggested_slug: withsherpa-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/sherpa
+  stub_created: false
+- name: Scope
+  url: https://tryscope.com
+  suggested_slug: tryscope-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/scope
   stub_created: false
 - name: Hexa
-  url: ''
+  url: https://www.hexaagents.com
   suggested_slug: hexa
   sector: ''
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/hexa
   stub_created: false
+- name: Palette 2
+  url: https://palettelabs.com/
+  suggested_slug: palettelabs-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/palette-2
+  stub_created: false
+- name: Replicas
+  url: https://replicas.dev
+  suggested_slug: replicas-dev
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/replicas
+  stub_created: false
+- name: Stage
+  url: https://www.tryluke.dev/
+  suggested_slug: tryluke-dev
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/stage
+  stub_created: false
+- name: Hedge
+  url: https://www.hedgespecialty.com/
+  suggested_slug: hedgespecialty-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/hedge
+  stub_created: false
 - name: Sila
-  url: ''
+  url: https://silahq.com
   suggested_slug: sila
   sector: ''
   source_vc: y-combinator
   source: https://www.ycombinator.com/companies/sila
   stub_created: false
-- name: Ndea Com
-  url: ''
-  suggested_slug: ndea-com
+- name: Maven
+  url: https://trymaven.com
+  suggested_slug: trymaven-com
   sector: ''
   source_vc: y-combinator
-  source: https://www.ycombinator.com/companies/ndea-com
+  source: https://www.ycombinator.com/companies/maven
+  stub_created: false
+- name: Squid
+  url: https://squid.energy
+  suggested_slug: squid-energy
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/squid
+  stub_created: false
+- name: Polymath
+  url: https://polymathlabs.ai/
+  suggested_slug: polymathlabs-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/polymath
+  stub_created: false
+- name: Pocket
+  url: https://heypocket.com/now
+  suggested_slug: heypocket-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/pocket
+  stub_created: false
+- name: Valence
+  url: https://valence.trade
+  suggested_slug: valence-trade
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/valence
+  stub_created: false
+- name: Cardboard
+  url: https://cardboard.ai
+  suggested_slug: cardboard-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/cardboard
+  stub_created: false
+- name: Prana Health
+  url: https://pranadoc.com
+  suggested_slug: pranadoc-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/prana-health
+  stub_created: false
+- name: Asimov
+  url: https://tryasimov.ai/
+  suggested_slug: tryasimov-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/asimov
+  stub_created: false
+- name: Axis 2
+  url: https://axisanalysis.com
+  suggested_slug: axisanalysis-com
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/axis-2
+  stub_created: false
+- name: Rivet Design
+  url: https://rivet.design/
+  suggested_slug: rivet-design
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/rivet-design
+  stub_created: false
+- name: Clad Labs
+  url: https://useclad.ai
+  suggested_slug: useclad-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/clad-labs
+  stub_created: false
+- name: Usenarrative
+  url: http://www.usenarrative.ai
+  suggested_slug: usenarrative-ai
+  sector: ''
+  source_vc: y-combinator
+  source: https://www.ycombinator.com/companies/usenarrative
   stub_created: false
